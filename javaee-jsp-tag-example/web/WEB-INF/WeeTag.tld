@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<taglib xmlns="http://java.sun.com/xml/ns/javaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+        version="2.1">
+
+    <tlib-version>1.0</tlib-version>
+    <short-name>WeeTag</short-name>
+    <uri>http://java.vaith.xyz/uri</uri>
+    <tag>
+        <name>helloWorld</name>
+        <tag-class>xyz.vaith.tag.HelloWorldTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+
+    <tag>
+        <name>query</name>
+        <tag-class>xyz.vaith.tag.QueryTag</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>driver</name>
+            <required>true</required>
+            <fragment>true</fragment>
+        </attribute>
+        <attribute>
+            <name>url</name>
+            <required>true</required>
+            <fragment>true</fragment>
+        </attribute>
+        <attribute>
+            <name>username</name>
+            <required>true</required>
+            <fragment>true</fragment>
+        </attribute>
+        <attribute>
+            <name>password</name>
+            <required>true</required>
+            <fragment>true</fragment>
+        </attribute>
+        <attribute>
+            <name>sql</name>
+            <required>true</required>
+            <fragment>true</fragment>
+        </attribute>
+    </tag>
+</taglib>
