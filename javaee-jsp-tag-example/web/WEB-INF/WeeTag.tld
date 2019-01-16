@@ -44,4 +44,40 @@
             <fragment>true</fragment>
         </attribute>
     </tag>
+
+    <tag>
+        <name>iterator</name>
+        <tag-class>xyz.vaith.tag.IteratorTag</tag-class>
+        <body-content>scriptless</body-content>
+        <attribute>
+            <name>collection</name>
+            <required>true</required>
+            <fragment>true</fragment>
+        </attribute>
+        <attribute>
+            <name>item</name>
+            <required>true</required>
+            <fragment>true</fragment>
+        </attribute>
+
+
+    </tag>
+
+    <tag>
+        <name>fragment</name>
+        <tag-class>xyz.vaith.tag.FragmentTag</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>fragment</name>
+            <required>true</required>
+            <fragment>true</fragment>
+        </attribute>
+    </tag>
+
+    <tag>
+        <name>dynaAttr</name>
+        <tag-class>xyz.vaith.tag.DynaAttributesTag</tag-class>
+        <body-content>empty</body-content>
+        <dynamic-attributes>true</dynamic-attributes>
+    </tag>
 </taglib>
