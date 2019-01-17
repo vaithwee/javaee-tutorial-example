@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<taglib xmlns="http://java.sun.com/xml/ns/javaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+        version="2.1">
+
+    <tlib-version>1.0</tlib-version><!-- 代表标签库的版本号 -->
+    <short-name>WeeTag</short-name><!-- 你的标签库的简称 -->
+    <uri>http://vaith.xyz/weetag</uri><!-- 你标签库的引用uri -->
+
+    <function>
+        <name>reverse</name>
+        <function-class>xyz.vaith.function.Functions</function-class>
+        <function-signature>java.lang.String reverse(java.lang.String)</function-signature>
+    </function>
+
+    <function>
+        <name>count</name>
+        <function-class>xyz.vaith.function.Functions</function-class>
+        <function-signature>int count(java.lang.String)</function-signature>
+    </function>
+
+</taglib>
