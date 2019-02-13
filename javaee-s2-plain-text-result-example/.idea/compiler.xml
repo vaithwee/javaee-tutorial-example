@@ -6,7 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="javaee-s2-plain-text-result-example" />
+        <module name="javaee-s2-result-example" />
       </profile>
     </annotationProcessing>
   </component>

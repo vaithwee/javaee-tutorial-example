@@ -6,12 +6,38 @@
     <constant name="struts.devMode" value="true" />
     <constant name="struts.enable.DynamicMethodInvocation" value="true" />
     <package name="wee" extends="struts-default" >
+        <global-results>
+            <result>/WEB-INF/content/${target}.jsp</result>
+        </global-results>
         <action name="login" class="xyz.vaith.web.action.LoginAction">
             <!--<result type="plainText">-->
                 <!--<param name="location">/WEB-INF/content/welcome.jsp</param>-->
             <!--</result>-->
             <!--<result>/WEB-INF/content/welcome.jsp</result>-->
-            <result type="redirect">/WEB-INF/content/welcome.jsp</result>
+            <!--<result type="redirect">index.jsp</result>-->
+
+            <result type="redirectAction">
+                <param name="actionName">dashboard</param>
+                <param name="namespace">/secure</param>
+            </result>
+        </action>
+
+        <action name="myAction" class="xyz.vaith.web.action.MyAction">
+            <!--<result>/WEB-INF/content/${target}.jsp</result>-->
+        </action>
+
+        <action name="welcome">
+            <result>/WEB-INF/content/welcome.jsp</result>
+        </action>
+    </package>
+
+    <package name="secure" extends="struts-default" namespace="/secure">
+        <action name="dashboard">
+            <result>/dashboard.jsp</result>
+            <result name="error" type="redirectAction">error</result>
+        </action>
+        <action name="error">
+            <result>/WEB-INF/content/error.jsp</result>
         </action>
     </package>
 </struts>
