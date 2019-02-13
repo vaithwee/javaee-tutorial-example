@@ -1,0 +1,14 @@
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+    <constant name="struts.devMode" value="true" />
+    <package name="wee" extends="struts-default">
+        <action name="login" class="xyz.vaith.web.action.LoginRegistAction" method="execute">
+            <result name="success">/success.jsp</result>
+        </action>
+        <action name="regist" class="xyz.vaith.web.action.LoginRegistAction" method="regist">
+            <result name="success">/success.jsp</result>
+        </action>
+    </package>
+</struts>
