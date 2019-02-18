@@ -5,4 +5,12 @@
     <constant name="struts.devMode" value="true" />
     <constant name="struts.enable.DynamicMethodInvocation" value="true" />
     <constant name="struts.ognl.allowStaticMethodAccess" value="true" />
+    <package name="wee" extends="struts-default" namespace="/">
+        <action name="tag1" class="xyz.vaith.app.action.TagAction" method="execute">
+            <result name="done">/WEB-INF/content/succ.jsp</result>
+        </action>
+        <action name="tag2" class="xyz.vaith.app.action.TagAction" method="login">
+            <result name="done">/WEB-INF/content/login-succ.jsp</result>
+        </action>
+    </package>
 </struts>
