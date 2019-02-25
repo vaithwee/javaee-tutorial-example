@@ -1,0 +1,14 @@
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+    <constant name="struts.devMode" value="true" />
+    <constant name="struts.enable.DynamicMethodInvocation" value="true" />
+    <package name="wee" extends="struts-default" namespace="/" >
+        <action name="pro" class="xyz.vaith.app.action.ProAction" method="execute">
+            <interceptor-ref name="token" />
+            <result name="invalid.token">/WEB-INF/content/refresh.jsp</result>
+            <result>/WEB-INF/content/show.jsp</result>
+        </action>
+    </package>
+</struts>
