@@ -1,0 +1,90 @@
+<!DOCTYPE validators PUBLIC
+        "-//Apache Struts//XWork Validator 1.0.3//EN"
+        "http://struts.apache.org/dtds/xwork-validator-1.0.3.dtd">
+
+<!--<validators>-->
+    <!--<field name="user">-->
+        <!--<field-validator type="requiredstring">-->
+            <!--<param name="trim">true</param>-->
+            <!--<message key="name.requried" />-->
+            <!--&lt;!&ndash;<message>必须输入名字</message>&ndash;&gt;-->
+        <!--</field-validator>-->
+        <!--<field-validator type="regex">-->
+            <!--<param name="regex"><![CDATA[(\w{4,25})]]></param>-->
+            <!--<message key="name.regex"/>-->
+            <!--&lt;!&ndash;<message>您输入的用户名只能是字母和数字, 且长度必须在4-25之间</message>&ndash;&gt;-->
+        <!--</field-validator>-->
+    <!--</field>-->
+
+    <!--<field name="pass">-->
+        <!--<field-validator type="requiredstring">-->
+            <!--<param name="trim">true</param>-->
+            <!--<message key="pass.requried"/>-->
+            <!--&lt;!&ndash;<message>必须输入密码</message>&ndash;&gt;-->
+        <!--</field-validator>-->
+        <!--<field-validator type="regex">-->
+            <!--<param name="regex"><![CDATA[(\w{4,25})]]></param>-->
+            <!--<message key="pass.regex" />-->
+            <!--&lt;!&ndash;<message>您输入的密码只能是字母和数字, 且长度必须在4-25之间</message>&ndash;&gt;-->
+        <!--</field-validator>-->
+    <!--</field>-->
+
+    <!--<field name="age">-->
+        <!--<field-validator type="int">-->
+            <!--<param name="min">1</param>-->
+            <!--<param name="max">150</param>-->
+            <!--<message key="age.range"/>-->
+            <!--&lt;!&ndash;<message>年纪必须在1-150之间</message>&ndash;&gt;-->
+        <!--</field-validator>-->
+    <!--</field>-->
+
+    <!--<field name="birth">-->
+        <!--<field-validator type="date">-->
+            <!--<param name="min">1900-01-01</param>-->
+            <!--<param name="max">2050-02-21</param>-->
+            <!--<message key="birth.range" />-->
+            <!--&lt;!&ndash;<message>生日必须在${min}到${max}之间</message>&ndash;&gt;-->
+        <!--</field-validator>-->
+    <!--</field>-->
+
+<!--</validators>-->
+
+<!--<validators>-->
+    <!--<validator type="requiredstring" short-circuit="true">-->
+        <!--<param name="fieldName">user</param>-->
+        <!--<param name="trim">true</param>-->
+        <!--<message key="name.requried" />-->
+    <!--</validator>-->
+    <!--<validator type="regex">-->
+        <!--<param name="fieldName">user</param>-->
+        <!--<param name="trim">true</param>-->
+        <!--<param name="regex"><![CDATA[(\w{4, 25})]]]></param>-->
+        <!--<message key="name.regex" />-->
+    <!--</validator>-->
+
+    <!--<validator type="requiredstring">-->
+        <!--<param name="fieldName">pass</param>-->
+        <!--<param name="trim">true</param>-->
+        <!--<message key="pass.requried" />-->
+    <!--</validator>-->
+    <!--<validator type="regex">-->
+        <!--<param name="fieldName">pass</param>-->
+        <!--<param name="trim">true</param>-->
+        <!--<param name="regex"><![CDATA[(\w{4, 25})]]]></param>-->
+        <!--<message key="pass.regex" />-->
+    <!--</validator>-->
+
+    <!--<validator type="int">-->
+        <!--<param name="fieldName">age</param>-->
+        <!--<param name="min">1</param>-->
+        <!--<param name="max">150</param>-->
+        <!--<message key="age.range" />-->
+    <!--</validator>-->
+
+    <!--<validator type="date">-->
+        <!--<param name="fieldName">birth</param>-->
+        <!--<param name="min">1900-01-01</param>-->
+        <!--<param name="max">2050-01-01</param>-->
+        <!--<message key="birth.range" />-->
+    <!--</validator>-->
+<!--</validators>-->
