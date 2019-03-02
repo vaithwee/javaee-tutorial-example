@@ -1,0 +1,29 @@
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+    <constant name="struts.devMode" value="true" />
+    <constant name="struts.enable.DynamicMethodInvocation" value="true" />
+    <package name="download" extends="struts-default" namespace="/">
+        <action name="download" class="xyz.vaith.app.action.FileDownloadAction">
+            <param name="inputPath">10.jpg</param>
+            <result type="stream">
+                <param name="contentType">image/jpg</param>
+                <param name="inputName">targetFile</param>
+                <param name="contentDisposition">filename="10.jsp"</param>
+                <param name="bufferSize">4096</param>
+            </result>
+        </action>
+
+        <action name="adownload" class="xyz.vaith.app.action.AuthorityDownAction">
+            <param name="inputPath">10.jpg</param>
+            <result type="stream">
+                <param name="contentType">image/jpg</param>
+                <param name="inputName">targetFile</param>
+                <param name="contentDisposition">filename="10.jsp"</param>
+                <param name="bufferSize">4096</param>
+            </result>
+            <result name="login">/WEB-INF/content/loginForm.jsp</result>
+        </action>
+    </package>
+</struts>
