@@ -1,0 +1,12 @@
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="xyz.vaith.app.model.UUIDPerson" table="hb_crm_uuid_person">
+        <id name="id" column="up_id">
+            <generator class="uuid" />
+        </id>
+        <property name="name" column="up_name" />
+        <property name="age" column="up_age" />
+    </class>
+</hibernate-mapping>

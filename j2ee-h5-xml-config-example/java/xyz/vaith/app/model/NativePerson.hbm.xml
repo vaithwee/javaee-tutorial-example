@@ -1,0 +1,12 @@
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="xyz.vaith.app.model.NativePerson" table="hb_crm_native_person">
+        <id name="id" column="np_id">
+            <generator class="native" />
+        </id>
+        <property name="name" column="np_name" />
+        <property name="age" column="np_age" />
+    </class>
+</hibernate-mapping>

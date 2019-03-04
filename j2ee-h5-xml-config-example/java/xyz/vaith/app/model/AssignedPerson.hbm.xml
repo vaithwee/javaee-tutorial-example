@@ -1,0 +1,12 @@
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="xyz.vaith.app.model.AssignedPerson" table="hb_crm_assigned_person">
+        <id name="id" column="ap_id">
+            <generator class="assigned" />
+        </id>
+        <property name="namel" column="ap_name" />
+        <property name="age" column="ap_age"/>
+    </class>
+</hibernate-mapping>
