@@ -6,6 +6,7 @@ import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 import xyz.vaith.app.domain.Name;
 import xyz.vaith.app.domain.Person;
+import xyz.vaith.app.domain.Score;
 
 public class App {
     public static void main(String[] args) {
@@ -14,11 +15,11 @@ public class App {
         Session session = sessionFactory.getCurrentSession();
         Transaction transaction = session.beginTransaction();
         Person person = new Person();
-        person.setAge(28);
-        Name name = new Name("Hello", "World");
-        name.getPower().put("u", 22);
-        name.getPower().put("a", 33);
-        person.setName(name);
+        person.setAge(30);
+        person.getNicks().add(new Name("Vaith", "Wee"));
+        person.getNicks().add(new Name("Hello", "World"));
+        person.getScores().put("数学", new Score("优秀", 97f));
+        person.getScores().put("语文", new Score("良好", 86f));
         session.save(person);
         transaction.commit();
     }
