@@ -27,5 +27,6 @@ public class App {
         person2.getAddresses().add(a1);
         currentSession.persist(person1);
         currentSession.persist(person2);
+        transaction.commit();
     }
 }

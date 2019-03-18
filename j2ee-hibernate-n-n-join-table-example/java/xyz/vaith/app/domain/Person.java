@@ -13,7 +13,7 @@ public class Person {
     private Integer id;
     private Integer age;
     private String name;
-    @OneToMany(targetEntity = Address.class, cascade = CascadeType.ALL)
+    @ManyToMany(targetEntity = Address.class, cascade = CascadeType.ALL)
     @JoinTable(name = "person_address", joinColumns = @JoinColumn(name = "person_id", referencedColumnName = "person_id"), inverseJoinColumns = @JoinColumn(name = "address_id", referencedColumnName = "address_id"))
     private Set<Address> addresses = new HashSet<>();
 
