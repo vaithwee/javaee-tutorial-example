@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="person" class="xyz.vaith.app.domain.Person">
+        <property name="name" value="Wee" />
+        <property name="age" value="19" />
+    </bean>
+
+    <bean id="student" class="xyz.vaith.app.domain.Student">
+        <constructor-arg name="name" value="学生" />
+        <constructor-arg name="age" value="28" />
+        <constructor-arg name="score" value="99.5" />
+    </bean>
+
+    <bean id="teacher" class="xyz.vaith.app.domain.Teacher">
+        <property name="name" value="老师" />
+        <property name="age" value="39" />
+        <property name="student" ref="student" />
+    </bean>
+</beans>
