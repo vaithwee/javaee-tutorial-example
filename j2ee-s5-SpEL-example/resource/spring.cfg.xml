@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="goods" class="xyz.vaith.app.domain.Goods">
+        <property name="name" value="货物" />
+        <property name="number" value="5" />
+        <property name="price" value="12.3" />
+    </bean>
+
+    <bean id="bill1" class="xyz.vaith.app.domain.Bill">
+        <property name="total" value="#{goods.calculateTotal()}" />
+    </bean>
+
+    <bean id="bill2" class="xyz.vaith.app.domain.Bill">
+        <property name="total" value="#{goods.number * goods.price}" />
+    </bean>
+</beans>
