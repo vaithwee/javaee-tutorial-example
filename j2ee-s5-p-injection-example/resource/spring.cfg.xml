@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="school" class="xyz.vaith.app.domain.School" p:name="北京师大附中" p:address="中国北京" />
+    <bean id="student" class="xyz.vaith.app.domain.Student" p:name="学生" p:age="15" p:school-ref="school" />
+</beans>
