@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+    <bean id="productService" class="xyz.vaith.app.service.ProductService" />
+
+    <bean id="myAspectXml" class="xyz.vaith.app.service.MyAscept" />
+    <aop:config>
+        <aop:pointcut id="pointcut1" expression="execution(* xyz.vaith.app.service.ProductService.*(..)) " />
+        <aop:pointcut id="pointcut2" expression="execution(* xyz.vaith.app.service.ProductService.update(..)) " />
+        <aop:pointcut id="pointcut3" expression="execution(* xyz.vaith.app.service.ProductService.find(..)) " />
+        <aop:pointcut id="pointcut4" expression="execution(* xyz.vaith.app.service.ProductService.delete(..)) " />
+        <aop:aspect ref="myAspectXml">
+            <aop:before method="checkPri" pointcut-ref="pointcut1"/>
+        </aop:aspect>
+
+        <aop:aspect ref="myAspectXml">
+            <aop:after-returning method="returning" pointcut-ref="pointcut3" returning="result" />
+        </aop:aspect>
+
+        <aop:aspect ref="myAspectXml">
+            <aop:around method="arround" pointcut-ref="pointcut2" />
+        </aop:aspect>
+
+        <aop:aspect ref="myAspectXml">
+            <aop:after-throwing method="after" pointcut-ref="pointcut4" throwing="throwable"/>
+        </aop:aspect>
+
+        <aop:aspect ref="myAspectXml">
+            <!--<aop:after method="after" pointcut-ref="pointcut4" />-->
+        </aop:aspect>
+    </aop:config>
+</beans>
