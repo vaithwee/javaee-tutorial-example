@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="collectionBean" class="xyz.vaith.app.domain.CollectionBean" >
+        <property name="list">
+            <list>
+                <value>天蓝色的彼岸</value>
+                <value>小王子</value>
+                <value>追风筝的人</value>
+            </list>
+        </property>
+        <property name="strings">
+            <list>
+                <value>hello</value>
+                <value>world</value>
+            </list>
+        </property>
+
+        <property name="stringSet">
+            <set>
+                <value>go</value>
+                <value>world</value>
+                <value>top</value>
+            </set>
+        </property>
+
+        <property name="stringStringMap">
+            <map>
+                <entry key="1" value="100" />
+                <entry key="2" value="200" />
+            </map>
+        </property>
+    </bean>
+</beans>
