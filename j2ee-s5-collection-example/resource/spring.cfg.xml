@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="stoneAex" class="xyz.vaith.app.domain.StoneAex" />
+    <bean id="steelAex" class="xyz.vaith.app.domain.SteelAex" />
+    <bean id="chinese" class="xyz.vaith.app.domain.Chinese" >
+        <property name="schools">
+            <list>
+                <value>小学</value>
+                <value>中学</value>
+                <value>大学</value>
+            </list>
+        </property>
+
+        <property name="scores">
+            <map>
+                <entry key="数学" value="87" />
+                <entry key="英语" value="89" />
+                <entry key="语文" value="82" />
+            </map>
+        </property>
+
+        <property name="phaseAxes">
+            <map>
+                <entry key="原始社会" value-ref="stoneAex" />
+                <entry key="农业社会" value-ref="steelAex"/>
+            </map>
+        </property>
+
+        <property name="health">
+            <props>
+                <prop key="血压">正常</prop>
+                <prop key="升高">175</prop>
+            </props>
+            <!--<value>-->
+                <!--perssure=normal-->
+                <!--height=175-->
+            <!--</value>-->
+        </property>
+
+        <property name="axes">
+            <set>
+                <value>普通的字符串</value>
+                <bean class="xyz.vaith.app.domain.SteelAex" />
+                <ref bean="stoneAex" />
+                <list>
+                    <value>20</value>
+                    <set>
+                        <value type="int">30</value>
+                    </set>
+                </list>
+            </set>
+        </property>
+
+        <property name="books">
+            <list>
+                <value>天蓝色的彼岸</value>
+                <value>麦田里的守望者</value>
+            </list>
+        </property>
+
+
+    </bean>
+</beans>
