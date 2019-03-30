@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="stoneAxe" class="xyz.vaith.app.service.impl.StroneAxe" />
+    <bean id="steelAxe" class="xyz.vaith.app.service.impl.SteelAxe" />
+    <bean id="chinese" class="xyz.vaith.app.service.impl.Chinese">
+        <!--<property name="axe" ref="stoneAxe" />-->
+        <property name="axe" ref="steelAxe" />
+    </bean>
+</beans>
