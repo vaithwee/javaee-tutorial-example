@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="stoneAxe" class="xyz.vaith.app.service.impl.StoneAxe" />
+    <bean id="personTemplate" abstract="true">
+        <property name="name" value="wee" />
+        <property name="axe" ref="stoneAxe" />
+    </bean>
+
+    <bean id="chinese" class="xyz.vaith.app.service.impl.Chinese" parent="personTemplate"></bean>
+    <bean id="american" class="xyz.vaith.app.service.impl.American" parent="personTemplate" />
+</beans>
