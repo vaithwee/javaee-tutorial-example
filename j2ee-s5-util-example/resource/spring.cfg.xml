@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+    <bean id="stoneAxe" class="xyz.vaith.app.domain.StoneAxe" />
+    <util:constant static-field="java.sql.Connection.TRANSACTION_SERIALIZABLE" id="data.age" />
+    <util:list id="data.schools" list-class="java.util.LinkedList">
+        <value>小学</value>
+        <value>中学</value>
+        <value>大学</value>
+    </util:list>
+    <util:properties id="data.prop" location="classpath:test_zh_CN.properties" />
+    <util:set id="data.axes" set-class="java.util.HashSet">
+        <value>字符串</value>
+        <bean class="xyz.vaith.app.domain.StoneAxe" />
+        <ref bean="stoneAxe" />
+    </util:set>
+
+    <util:map id="data.scores" map-class="java.util.TreeMap" >
+        <entry key="数学" value="87" />
+        <entry key="语文" value="97" />
+        <entry key="英语" value="82" />
+    </util:map>
+
+    <bean id="data" class="xyz.vaith.app.domain.Data" p:axe-ref="data.age" p:school-ref="data.schools" p:axes-ref="data.axes" p:scores-ref="data.scores" >
+
+    </bean>
+
+</beans>
