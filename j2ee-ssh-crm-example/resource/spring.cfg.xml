@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="userDao" class="xyz.vaith.app.dao.impl.UserDaoImpl" />
+    <bean id="userService" class="xyz.vaith.app.service.impl.UserServiceImpl" />
+    <bean id="userAction" class="xyz.vaith.app.web.action.UserAction" scope="prototype" />
+</beans>
