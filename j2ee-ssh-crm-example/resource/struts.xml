@@ -10,6 +10,8 @@
     <constant name="struts.devMode" value="true" />
 
     <package name="UserSystem" extends="struts-default">
+        <action name="regist" class="userAction" method="regist">
 
+        </action>
     </package>
 </struts>
