@@ -4,4 +4,5 @@ import xyz.vaith.app.domain.User;
 
 public interface UserDao {
     void save(User user);
+    User login(User user);
 }

@@ -9,9 +9,13 @@
     <constant name="struts.enable.DynamicMethodInvocation" value="true" />
     <constant name="struts.devMode" value="true" />
 
-    <package name="UserSystem" extends="struts-default">
-        <action name="regist" class="userAction" method="regist">
-
+    <package name="UserSystem" extends="struts-default" namespace="/us" >
+        <action name="register" class="userAction" method="register">
+            <result name="success" type="redirect">login.jsp</result>
+        </action>
+        <action name="login" class="userAction" method="login">
+            <result name="success" type="redirect">/index.jsp</result>
+            <result name="input">/login.jsp</result>
         </action>
     </package>
 </struts>
