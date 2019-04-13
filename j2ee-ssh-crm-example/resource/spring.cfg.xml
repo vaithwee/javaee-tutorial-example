@@ -12,6 +12,8 @@
 	http://www.springframework.org/schema/aop/spring-aop.xsd
 	http://www.springframework.org/schema/tx
 	http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+<!--  UserSystem  -->
     <bean id="userDao" class="xyz.vaith.app.dao.impl.UserDaoImpl">
         <property name="sessionFactory" ref="sessionFactory" />
     </bean>
@@ -21,6 +23,33 @@
     <bean id="userAction" class="xyz.vaith.app.web.action.UserAction" scope="prototype">
         <property name="userService" ref="userService" />
     </bean>
+
+<!--  CustomerManager  -->
+    <bean id="customerDao" class="xyz.vaith.app.dao.impl.CustomerDaoImpl">
+        <property name="sessionFactory" ref="sessionFactory" />
+    </bean>
+
+    <bean id="customerService" class="xyz.vaith.app.service.impl.CustomerServiceImpl">
+        <property name="custeomerDao" ref="customerDao" />
+    </bean>
+
+    <bean id="customerAction" class="xyz.vaith.app.web.action.CustomerAction" scope="prototype">
+        <property name="customerService" ref="customerService" />
+    </bean>
+
+<!--   BaseDict     -->
+    <bean id="baseDictDao" class="xyz.vaith.app.dao.impl.BaseDictDaoImpl" >
+        <property name="sessionFactory" ref="sessionFactory" />
+    </bean>
+
+    <bean id="baseDictService" class="xyz.vaith.app.service.impl.BaseDictServiceImpl">
+        <property name="baseDictDao" ref="baseDictDao" />
+    </bean>
+
+    <bean id="baseDictAction" class="xyz.vaith.app.web.action.BaseDictAction">
+        <property name="baseDictService" ref="baseDictService" />
+    </bean>
+<!--  Sql  -->
 
     <bean id="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
         <property name="configLocation" value="classpath:hibernate.cfg.xml" />

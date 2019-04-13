@@ -6,14 +6,10 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<!-- container-scroller -->
-<!-- plugins:js -->
-<script src="vendors/js/vendor.bundle.base.js"></script>
-<script src="vendors/js/vendor.bundle.addons.js"></script>
-<!-- endinject -->
-<!-- inject:js -->
-<script src="js/off-canvas.js"></script>
-<script src="js/misc.js"></script>
-<!-- endinject -->
+<%@ taglib prefix="s" uri="/struts-tags" %>
 
-<script src="js/dashboard.js"></script>
+<script src="<s:url value="/vendors/js/vendor.bundle.base.js" />"></script>
+<script src="<s:url value="/vendors/js/vendor.bundle.addons.js" />"></script>
+<script src="<s:url value="/js/off-canvas.js"/>"></script>
+<script src="<s:url value="/js/misc.js" />"></script>
+<script src="<s:url value="/js/dashboard.js" />"></script>

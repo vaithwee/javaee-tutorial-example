@@ -23,5 +23,7 @@
         <property name="hibernate.c3p0.acquire_increment">2</property>  <!-- 连接不够用时,每次增加的个数 -->
 
         <mapping resource="xyz/vaith/app/domain/User.hbm.xml" />
+        <mapping resource="xyz/vaith/app/domain/Customer.hbm.xml" />
+        <mapping resource="xyz/vaith/app/domain/BaseDict.hbm.xml" />
     </session-factory>
 </hibernate-configuration>

@@ -15,7 +15,13 @@
         </action>
         <action name="login" class="userAction" method="login">
             <result name="success" type="redirect">/index.jsp</result>
-            <result name="input">/login.jsp</result>
+            <result name="input" type="dispatcher">/login.jsp</result>
+        </action>
+    </package>
+    
+    <package name="CustomerManager" extends="struts-default" namespace="/cs">
+        <action name="addUI">
+            <result>/WEB-INF/content/cm/add.jsp</result>
         </action>
     </package>
 </struts>

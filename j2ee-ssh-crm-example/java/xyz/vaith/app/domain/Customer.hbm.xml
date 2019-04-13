@@ -1,0 +1,20 @@
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="xyz.vaith.app.domain.Customer" table="cst_customer">
+        <id name="cid" column="cust_id">
+            <generator class="native"></generator>
+        </id>
+        <property name="name" column="cust_name" />
+<!--        <property name="source" column="cust_source" />-->
+<!--        <property name="industry" column="cust_industry" />-->
+<!--        <property name="level" column="cust_level" />-->
+        <property name="phone" column="cust_phone" />
+        <property name="mobile" column="cust_mobile" />
+        <many-to-one name="source" class="xyz.vaith.app.domain.BaseDict" column="cust_source" />
+        <many-to-one name="industry" class="xyz.vaith.app.domain.BaseDict" column="cust_industry" />
+        <many-to-one name="level" class="xyz.vaith.app.domain.BaseDict" column="cust_level" />
+
+    </class>
+</hibernate-mapping>

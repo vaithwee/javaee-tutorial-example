@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="s" uri="/struts-tags" %>
 <html>
-<jsp:include page="WEB-INF/content/header.jsp" />
+<s:include value="WEB-INF/content/header.jsp" />
 <body>
 <div class="container-scroller">
     <div class="container-fluid page-body-wrapper full-page-wrapper">
@@ -17,7 +17,7 @@
                 <div class="col-lg-4 mx-auto">
                     <div class="auth-form-light text-left p-5">
                         <div class="brand-logo">
-                            <img src="images/logo.svg">
+                            <img src="<s:url value="/images/logo.svg" />">
                         </div>
                         <h4>New here?</h4>
                         <h6 class="font-weight-light">Signing up is easy. It only takes a few steps</h6>
