@@ -8,29 +8,24 @@
   <component name="ChangeListManager">
     <list default="true" id="80ba9d34-83f2-4c51-9ce1-2c16a65c022b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/xyz/vaith/app/dao/BaseDictDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/xyz/vaith/app/dao/BaseDictDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/xyz/vaith/app/dao/CusteomerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/xyz/vaith/app/dao/CusteomerDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/xyz/vaith/app/dao/impl/BaseDictDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/xyz/vaith/app/dao/impl/BaseDictDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/xyz/vaith/app/dao/impl/CustomerDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/xyz/vaith/app/dao/impl/CustomerDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/xyz/vaith/app/service/BaseDictService.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/xyz/vaith/app/service/BaseDictService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/xyz/vaith/app/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/xyz/vaith/app/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/xyz/vaith/app/service/impl/BaseDictServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/xyz/vaith/app/service/impl/BaseDictServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/xyz/vaith/app/service/impl/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/xyz/vaith/app/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/xyz/vaith/app/web/action/BaseDictAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/xyz/vaith/app/web/action/BaseDictAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/xyz/vaith/app/web/action/CustomerAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/xyz/vaith/app/web/action/CustomerAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resource/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resource/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/spring.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resource/spring.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resource/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resource/struts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/body-bottom.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/body-bottom.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/cm/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/cm/add.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/nav-bar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/nav-bar.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/sidebar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/sidebar.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/charts/chartjs.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/charts/chartjs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/forms/basic_elements.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/forms/basic_elements.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/icons/mdi.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/icons/mdi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/samples/blank-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/samples/blank-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/samples/error-404.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/samples/error-404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/samples/error-500.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/samples/error-500.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/samples/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/samples/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/samples/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/samples/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/tables/basic-table.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/tables/basic-table.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/ui-features/buttons.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/ui-features/buttons.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/ui-features/typography.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/ui-features/typography.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/vendors/js/vendor.bundle.addons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/vendors/js/vendor.bundle.addons.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -83,132 +78,112 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/domain/Customer.hbm.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/content/cm/table.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+            <state relative-caret-position="548">
+              <caret line="109" column="45" selection-start-line="109" selection-start-column="45" selection-end-line="109" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/dao/BaseDictDao.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/ui-features/buttons.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+            <state relative-caret-position="646">
+              <caret line="212" column="49" selection-start-line="212" selection-start-column="41" selection-end-line="212" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/dao/impl/BaseDictDaoImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/content/sidebar.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/service/BaseDictService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="675">
+              <caret line="25" column="82" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="82" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resource/spring.cfg.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/content/nav-bar.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="711">
-              <caret line="49" column="65" selection-start-line="49" selection-start-column="65" selection-end-line="49" selection-end-column="65" />
+            <state relative-caret-position="324">
+              <caret line="12" column="98" selection-start-line="12" selection-start-column="98" selection-end-line="12" selection-end-column="98" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/service/impl/BaseDictServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
+            <state relative-caret-position="406">
+              <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/web/action/CustomerAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="355">
+              <caret line="56" column="61" selection-start-line="56" selection-start-column="61" selection-end-line="56" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#324#325#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/web/action/BaseDictAction.java">
+        <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/dao/impl/CustomerDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="69" selection-start-line="8" selection-start-column="69" selection-end-line="8" selection-end-column="69" />
+            <state relative-caret-position="522">
+              <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#348#349#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/domain/Customer.java">
+        <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/domain/PageBean.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
-                <element signature="e#275#276#0" expanded="true" />
-                <element signature="e#301#302#0" expanded="true" />
-                <element signature="e#340#341#0" expanded="true" />
-                <element signature="e#370#371#0" expanded="true" />
-                <element signature="e#401#402#0" expanded="true" />
-                <element signature="e#428#429#0" expanded="true" />
-                <element signature="e#468#469#0" expanded="true" />
-                <element signature="e#500#501#0" expanded="true" />
-                <element signature="e#535#536#0" expanded="true" />
-                <element signature="e#564#565#0" expanded="true" />
-                <element signature="e#610#611#0" expanded="true" />
-                <element signature="e#646#647#0" expanded="true" />
-                <element signature="e#683#684#0" expanded="true" />
-                <element signature="e#714#715#0" expanded="true" />
-                <element signature="e#764#765#0" expanded="true" />
-                <element signature="e#804#805#0" expanded="true" />
-                <element signature="e#838#839#0" expanded="true" />
-                <element signature="e#866#867#0" expanded="true" />
-                <element signature="e#910#911#0" expanded="true" />
-                <element signature="e#944#945#0" expanded="true" />
-                <element signature="e#976#977#0" expanded="true" />
-                <element signature="e#1004#1005#0" expanded="true" />
-                <element signature="e#1046#1047#0" expanded="true" />
-                <element signature="e#1080#1081#0" expanded="true" />
-                <element signature="e#1113#1114#0" expanded="true" />
-                <element signature="e#1142#1143#0" expanded="true" />
-                <element signature="e#1186#1187#0" expanded="true" />
-                <element signature="e#1222#1223#0" expanded="true" />
+                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#298#299#0" expanded="true" />
+                <element signature="e#349#350#0" expanded="true" />
+                <element signature="e#427#428#0" expanded="true" />
+                <element signature="e#458#459#0" expanded="true" />
+                <element signature="e#507#508#0" expanded="true" />
+                <element signature="e#547#548#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/domain/BaseDict.hbm.xml">
+        <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/service/impl/CustomerServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            <state relative-caret-position="377">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resource/hibernate.cfg.xml">
+        <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/service/CustomerService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="950">
-              <caret line="26" column="68" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
+            <state relative-caret-position="297">
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -233,6 +208,7 @@
       <find>property</find>
       <find>buttons</find>
       <find>src=</find>
+      <find>getDictByTypeCode</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -246,7 +222,6 @@
         <option value="$PROJECT_DIR$/java/xyz/vaith/app/domain/User.java" />
         <option value="$PROJECT_DIR$/java/xyz/vaith/app/domain/User.hbm.xml" />
         <option value="$PROJECT_DIR$/java/xyz/vaith/app/util/MD5Utils.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/72071146-67a9-4351-a8de-083c3b3b2ce2/console_1.sql" />
         <option value="$PROJECT_DIR$/java/xyz/vaith/app/service/UserService.java" />
         <option value="$PROJECT_DIR$/java/xyz/vaith/app/dao/UserDao.java" />
@@ -254,29 +229,36 @@
         <option value="$PROJECT_DIR$/java/xyz/vaith/app/dao/impl/UserDaoImpl.java" />
         <option value="$PROJECT_DIR$/java/xyz/vaith/app/web/action/UserAction.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/header.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/body-bottom.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/register.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
-        <option value="$PROJECT_DIR$/java/xyz/vaith/app/service/impl/CustomerServiceImpl.java" />
-        <option value="$PROJECT_DIR$/java/xyz/vaith/app/dao/impl/CustomerDaoImpl.java" />
-        <option value="$PROJECT_DIR$/java/xyz/vaith/app/web/action/CustomerAction.java" />
-        <option value="$PROJECT_DIR$/resource/struts.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/cm/add.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/nav-bar.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/sidebar.jsp" />
         <option value="$PROJECT_DIR$/java/xyz/vaith/app/domain/BaseDict.java" />
         <option value="$PROJECT_DIR$/java/xyz/vaith/app/domain/BaseDict.hbm.xml" />
-        <option value="$PROJECT_DIR$/resource/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/java/xyz/vaith/app/domain/Customer.java" />
         <option value="$PROJECT_DIR$/java/xyz/vaith/app/domain/Customer.hbm.xml" />
-        <option value="$PROJECT_DIR$/java/xyz/vaith/app/dao/impl/BaseDictDaoImpl.java" />
-        <option value="$PROJECT_DIR$/java/xyz/vaith/app/service/impl/BaseDictServiceImpl.java" />
-        <option value="$PROJECT_DIR$/java/xyz/vaith/app/web/action/BaseDictAction.java" />
         <option value="$PROJECT_DIR$/resource/spring.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/header.jsp" />
+        <option value="$PROJECT_DIR$/java/xyz/vaith/app/service/BaseDictService.java" />
+        <option value="$PROJECT_DIR$/java/xyz/vaith/app/service/impl/BaseDictServiceImpl.java" />
+        <option value="$PROJECT_DIR$/java/xyz/vaith/app/dao/BaseDictDao.java" />
+        <option value="$PROJECT_DIR$/java/xyz/vaith/app/dao/impl/BaseDictDaoImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/java/xyz/vaith/app/web/action/BaseDictAction.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/cm/add.jsp" />
+        <option value="$PROJECT_DIR$/resource/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/java/xyz/vaith/app/domain/PageBean.java" />
+        <option value="$PROJECT_DIR$/java/xyz/vaith/app/service/CustomerService.java" />
+        <option value="$PROJECT_DIR$/java/xyz/vaith/app/dao/CusteomerDao.java" />
+        <option value="$PROJECT_DIR$/java/xyz/vaith/app/service/impl/CustomerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/java/xyz/vaith/app/web/action/CustomerAction.java" />
+        <option value="$PROJECT_DIR$/resource/struts.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/java/xyz/vaith/app/dao/impl/CustomerDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/cm/table.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/sidebar.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/nav-bar.jsp" />
       </list>
     </option>
   </component>
@@ -317,9 +299,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="2155" />
+    <option name="width" value="1698" />
     <option name="height" value="1337" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -330,7 +312,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -349,6 +330,43 @@
               <item name="j2ee-ssh-crm-example" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j2ee-ssh-crm-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j2ee-ssh-crm-example" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j2ee-ssh-crm-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j2ee-ssh-crm-example" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j2ee-ssh-crm-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j2ee-ssh-crm-example" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j2ee-ssh-crm-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j2ee-ssh-crm-example" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j2ee-ssh-crm-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j2ee-ssh-crm-example" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="j2ee-ssh-crm-example" type="b2602c69:ProjectViewProjectNode" />
@@ -395,6 +413,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="charts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j2ee-ssh-crm-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j2ee-ssh-crm-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="forms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -404,7 +431,25 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="icons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j2ee-ssh-crm-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j2ee-ssh-crm-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="samples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j2ee-ssh-crm-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j2ee-ssh-crm-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="tables" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="j2ee-ssh-crm-example" type="b2602c69:ProjectViewProjectNode" />
@@ -450,6 +495,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -460,7 +506,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554886971214" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/cm" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -472,13 +518,15 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp/pages" />
-      <recent name="$PROJECT_DIR$/src/main/webapp" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/cm" />
       <recent name="$PROJECT_DIR$/src/main/webapp" />
       <recent name="$PROJECT_DIR$/java/xyz/vaith/app/util" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/js" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/pages" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -586,15 +634,16 @@
       <workItem from="1554986280038" duration="4069000" />
       <workItem from="1554992076915" duration="2813000" />
       <workItem from="1555142452629" duration="412000" />
-      <workItem from="1555142917050" duration="12892000" />
+      <workItem from="1555142917050" duration="14750000" />
+      <workItem from="1555168178517" duration="11830000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31196000" />
+    <option name="totallyTimeSpent" value="44884000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="2155" height="1337" extended-state="0" />
+    <frame x="0" y="23" width="2560" height="1337" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Persistence" order="0" sideWeight="0.06666667" side_tool="true" weight="0.14892772" />
@@ -603,10 +652,9 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.93333334" visible="true" weight="0.2375769" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.93333334" visible="true" weight="0.20095314" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info id="Web" order="8" sideWeight="0.50085765" side_tool="true" weight="0.25239617" />
-      <window_info anchor="bottom" id="Database Console" weight="0.3295362" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50039715" side_tool="true" weight="0.32872254" />
@@ -617,12 +665,13 @@
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.3295362" />
       <window_info anchor="bottom" id="Run" order="9" sideWeight="0.49960285" visible="true" weight="0.32872254" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.39869812" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="13" />
       <window_info anchor="bottom" id="Application Servers" order="14" weight="0.32911393" />
-      <window_info anchor="bottom" id="Spring" order="15" />
+      <window_info anchor="bottom" id="Spring" order="15" weight="0.3295362" />
+      <window_info anchor="bottom" id="Database Console" order="16" weight="0.3295362" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Maven" order="2" weight="0.32962668" />
@@ -677,16 +726,22 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/webapp/WEB-INF/content/header.jsp</url>
-          <line>7</line>
+          <url>file://$PROJECT_DIR$/java/xyz/vaith/app/web/action/CustomerAction.java</url>
+          <line>56</line>
           <properties />
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/webapp/index.jsp</url>
-          <line>17</line>
+          <url>file://$PROJECT_DIR$/java/xyz/vaith/app/service/impl/CustomerServiceImpl.java</url>
+          <line>27</line>
           <properties />
-          <option name="timeStamp" value="2" />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/xyz/vaith/app/dao/impl/CustomerDaoImpl.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -696,39 +751,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/samples/error-500.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/icons/mdi.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1116">
-          <caret line="132" column="17" lean-forward="true" selection-start-line="132" selection-start-column="17" selection-end-line="132" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/struts.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/spring.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/72071146-67a9-4351-a8de-083c3b3b2ce2/console_1.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/72071146-67a9-4351-a8de-083c3b3b2ce2/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../../../maven-local-repository/org/springframework/spring-orm/5.1.5.RELEASE/spring-orm-5.1.5.RELEASE.jar!/org/springframework/orm/hibernate5/support/HibernateDaoSupport.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
@@ -747,13 +769,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../maven-local-repository/org/springframework/spring-orm/5.1.5.RELEASE/spring-orm-5.1.5.RELEASE.jar!/org/springframework/orm/hibernate5/HibernateTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="584" column="38" lean-forward="true" selection-start-line="584" selection-start-column="38" selection-end-line="584" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -761,33 +776,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/dao/impl/UserDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/web/action/UserAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.html" />
     <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -831,13 +820,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/content/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/content/body-bottom.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -859,103 +841,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/service/CustomerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/dao/CusteomerDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/service/impl/CustomerServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/dao/impl/CustomerDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/web/action/CustomerAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="10" column="69" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/ui-features/buttons.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5408">
-          <caret line="212" column="49" selection-start-line="212" selection-start-column="41" selection-end-line="212" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/ui-features/typography.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-573" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/struts.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="23" column="36" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="16" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/samples/blank-page.html">
@@ -969,10 +857,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/domain/User.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="55" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../maven-local-repository/org/hibernate/hibernate-core/5.4.0.Final/hibernate-core-5.4.0.Final.jar!/org/hibernate/hibernate-mapping-3.0.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" selection-start-line="9" selection-end-line="11" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/domain/BaseDict.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/domain/Customer.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/content/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/dao/impl/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/dao/BaseDictDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="144" column="17" selection-start-line="144" selection-start-column="17" selection-end-line="144" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/forms/basic_elements.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="428" column="18" lean-forward="true" selection-start-line="378" selection-start-column="12" selection-end-line="428" selection-end-column="18" />
+        <state relative-caret-position="671">
+          <caret line="466" column="29" lean-forward="true" selection-start-line="460" selection-start-column="20" selection-end-line="466" selection-end-column="29" />
           <folding>
             <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -981,38 +935,163 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/content/cm/add.jsp">
+    <entry file="file://$PROJECT_DIR$/resource/spring.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
-          <caret line="55" column="57" selection-start-line="55" selection-start-column="57" selection-end-line="55" selection-end-column="57" />
+        <state relative-caret-position="711">
+          <caret line="49" column="65" selection-start-line="49" selection-start-column="65" selection-end-line="49" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/content/nav-bar.jsp">
+    <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/web/action/UserAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="734">
-          <caret line="33" column="92" selection-start-line="33" selection-start-column="84" selection-end-line="33" selection-end-column="92" />
+        <state relative-caret-position="702">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/content/sidebar.jsp">
+    <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/dao/impl/BaseDictDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../maven-local-repository/org/springframework/spring-aop/5.1.5.RELEASE/spring-aop-5.1.5.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="193" selection-start-line="193" selection-end-line="193" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../maven-local-repository/org/springframework/spring-aop/5.1.5.RELEASE/spring-aop-5.1.5.RELEASE.jar!/org/springframework/aop/framework/ReflectiveMethodInvocation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
-          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding>
+            <element signature="e#490#495#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/domain/User.hbm.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/content/cm/add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1014">
+          <caret line="90" column="60" lean-forward="true" selection-start-line="90" selection-start-column="60" selection-end-line="90" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/web/action/BaseDictAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/service/BaseDictService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/service/impl/BaseDictServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/dao/CusteomerDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
-          <caret line="9" column="55" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="55" />
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/struts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/domain/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="29" />
+          <folding>
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#764#765#0" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#866#867#0" expanded="true" />
+            <element signature="e#910#911#0" expanded="true" />
+            <element signature="e#944#945#0" expanded="true" />
+            <element signature="e#976#977#0" expanded="true" />
+            <element signature="e#1004#1005#0" expanded="true" />
+            <element signature="e#1046#1047#0" expanded="true" />
+            <element signature="e#1080#1081#0" expanded="true" />
+            <element signature="e#1113#1114#0" expanded="true" />
+            <element signature="e#1142#1143#0" expanded="true" />
+            <element signature="e#1186#1187#0" expanded="true" />
+            <element signature="e#1222#1223#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/domain/BaseDict.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="21" />
+        <state relative-caret-position="189">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="27" />
           <folding>
             <element signature="e#301#302#0" expanded="true" />
             <element signature="e#327#328#0" expanded="true" />
@@ -1050,121 +1129,125 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../maven-local-repository/org/hibernate/hibernate-core/5.4.0.Final/hibernate-core-5.4.0.Final.jar!/org/hibernate/hibernate-mapping-3.0.dtd">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" selection-start-line="9" selection-end-line="11" selection-end-column="61" />
+        <state relative-caret-position="-11">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/domain/BaseDict.hbm.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/tables/basic-table.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        <state relative-caret-position="364">
+          <caret line="977" column="16" lean-forward="true" selection-start-line="294" selection-start-column="9" selection-end-line="977" selection-end-column="16" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resource/hibernate.cfg.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="26" column="68" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
+        <state relative-caret-position="406">
+          <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/domain/Customer.java">
+    <entry file="jar://$PROJECT_DIR$/../../../../maven-local-repository/org/springframework/spring-aop/5.1.5.RELEASE/spring-aop-5.1.5.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/web/action/CustomerAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="56" column="61" selection-start-line="56" selection-start-column="61" selection-end-line="56" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/service/CustomerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/domain/PageBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
-            <element signature="e#535#536#0" expanded="true" />
-            <element signature="e#564#565#0" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
-            <element signature="e#764#765#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#838#839#0" expanded="true" />
-            <element signature="e#866#867#0" expanded="true" />
-            <element signature="e#910#911#0" expanded="true" />
-            <element signature="e#944#945#0" expanded="true" />
-            <element signature="e#976#977#0" expanded="true" />
-            <element signature="e#1004#1005#0" expanded="true" />
-            <element signature="e#1046#1047#0" expanded="true" />
-            <element signature="e#1080#1081#0" expanded="true" />
-            <element signature="e#1113#1114#0" expanded="true" />
-            <element signature="e#1142#1143#0" expanded="true" />
-            <element signature="e#1186#1187#0" expanded="true" />
-            <element signature="e#1222#1223#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/domain/Customer.hbm.xml">
+    <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/service/impl/CustomerServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/dao/BaseDictDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/dao/impl/BaseDictDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="377">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/service/BaseDictService.java">
+    <entry file="jar://$PROJECT_DIR$/../../../../maven-local-repository/org/springframework/spring-orm/5.1.5.RELEASE/spring-orm-5.1.5.RELEASE.jar!/org/springframework/orm/hibernate5/HibernateTemplate.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="229">
+          <caret line="525" column="19" selection-start-line="525" selection-start-column="19" selection-end-line="525" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/service/impl/BaseDictServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/dao/impl/CustomerDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
+        <state relative-caret-position="522">
+          <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/web/action/BaseDictAction.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/ui-features/buttons.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="69" selection-start-line="8" selection-start-column="69" selection-end-line="8" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="646">
+          <caret line="212" column="49" selection-start-line="212" selection-start-column="41" selection-end-line="212" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resource/spring.cfg.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/content/cm/table.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="711">
-          <caret line="49" column="65" selection-start-line="49" selection-start-column="65" selection-end-line="49" selection-end-column="65" />
+        <state relative-caret-position="548">
+          <caret line="109" column="45" selection-start-line="109" selection-start-column="45" selection-end-line="109" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/content/sidebar.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="25" column="82" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/content/nav-bar.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="98" selection-start-line="12" selection-start-column="98" selection-end-line="12" selection-end-column="98" />
         </state>
       </provider>
     </entry>

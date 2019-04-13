@@ -7,7 +7,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="s" uri="/struts-tags" %>
-<head>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -18,4 +18,5 @@
         @import url("<s:url value="/css/style.css" />");
     </style>
     <link rel="shortcut icon" href="<s:url value="/images/favicon.png" />" />
-</head>
+    <script type="text/javascript" src="<s:url value="/js/jquery-3.4.0.min.js" />" ></script>
+

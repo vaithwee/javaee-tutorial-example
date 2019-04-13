@@ -15,7 +15,7 @@
         </action>
         <action name="login" class="userAction" method="login">
             <result name="success" type="redirect">/index.jsp</result>
-            <result name="input" type="dispatcher">/login.jsp</result>
+            <result name="input">/login.jsp</result>
         </action>
     </package>
     
@@ -23,5 +23,15 @@
         <action name="addUI">
             <result>/WEB-INF/content/cm/add.jsp</result>
         </action>
+        <action name="listUI" class="customerAction" method="listUI">
+            <result>/WEB-INF/content/cm/table.jsp</result>
+        </action>
+        <action name="add" class="customerAction" method="add">
+            <result>/WEB-INF/content/cm/table.jsp</result>
+        </action>
+    </package>
+
+    <package name="BaseDict" extends="struts-default" namespace="/bd">
+        <action name="getDictByTypeCode" class="baseDictAction" method="getDictByTypeCode"></action>
     </package>
 </struts>

@@ -23,7 +23,7 @@
             </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="<s:url value="/index.jsp"/>">
+            <a class="nav-link" href="${pageContext.request.contextPath}/index.jsp">
                 <span class="menu-title">主面板</span>
                 <i class="mdi mdi-home menu-icon"></i>
             </a>
@@ -36,8 +36,8 @@
             </a>
             <div class="collapse" id="ui-basic">
                 <ul class="nav flex-column sub-menu">
-                    <li class="nav-item"> <a class="nav-link" href="<s:url value="cs/addUI" /> ">添加客户</a></li>
-                    <li class="nav-item"> <a class="nav-link" href="pages/ui-features/typography.html">客户列表</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="${pageContext.request.contextPath}/cs/addUI">添加客户</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="${pageContext.request.contextPath}/cs/listUI">客户列表</a></li>
                 </ul>
             </div>
         </li>

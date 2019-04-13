@@ -10,6 +10,33 @@
 <html>
 <head>
    <s:include value="/WEB-INF/content/header.jsp"></s:include>
+    <script>
+        $(function () {
+            $.post("<s:url value="/bd/getDictByTypeCode" />", {"typeCode":"002"}, function(data){
+                console.log(data);
+                $(data).each(function (index, item) {
+                    console.log("item:" + item);
+                   $("#source").append("<option value=\"" + item.did + "\">" + item.itemName + "</option>");
+                });
+            }, "json");
+
+            $.post("<s:url value="/bd/getDictByTypeCode" />", {"typeCode":"001"}, function(data){
+                console.log(data);
+                $(data).each(function (index, item) {
+                    console.log("item:" + item);
+                    $("#industry").append("<option value=\"" + item.did + "\">" + item.itemName + "</option>");
+                });
+            }, "json");
+
+            $.post("<s:url value="/bd/getDictByTypeCode" />", {"typeCode":"006"}, function(data){
+                console.log(data);
+                $(data).each(function (index, item) {
+                    console.log("item:" + item);
+                    $("#level").append("<option value=\"" + item.did + "\">" + item.itemName + "</option>");
+                });
+            }, "json");
+        });
+    </script>
 </head>
 <body>
 <div class="container-scroller">
@@ -33,27 +60,37 @@
                                 <s:form class="forms-sample" action="cs/add">
                                     <div class="form-group">
                                         <label for="username">客户名称</label>
-                                        <input type="text" class="form-control" id="username" placeholder="客户名称">
+                                        <input type="text" class="form-control" id="username" placeholder="客户名称" name="name">
                                     </div>
                                     <div class="form-group">
                                         <label for="level">客户级别</label>
-                                        <input type="text" class="form-control" id="level" placeholder="客户级别">
+                                        <select class="form-control form-control-lg" id="level" name="level.did">
+                                            <option value="">--请选择--</option>
+
+                                        </select>
+
                                     </div>
                                     <div class="form-group">
                                         <label for="source">信息来源</label>
-                                        <input type="text" class="form-control" id="source" placeholder="信息来源">
+                                        <select class="form-control form-control-lg" id="source" name="source.did">
+                                            <option value="">--请选择--</option>
+
+                                        </select>
                                     </div>
                                     <div class="form-group">
                                         <label for="industry">所属行业</label>
-                                        <input type="text" class="form-control" id="industry" placeholder="所属行业">
+                                        <select class="form-control form-control-lg" id="industry" name="industry.did">
+                                            <option value="">--请选择--</option>
+
+                                        </select>
                                     </div>
                                     <div class="form-group">
                                         <label for="phone">固定电话</label>
-                                        <input type="text" class="form-control" id="phone" placeholder="固定电话">
+                                        <input type="text" class="form-control" id="phone" placeholder="固定电话" name="phone">
                                     </div>
                                     <div class="form-group">
                                         <label for="mobile">移动电话</label>
-                                        <input type="text" class="form-control" id="mobile" placeholder="移动电话">
+                                        <input type="text" class="form-control" id="mobile" placeholder="移动电话" name="mobile">
                                     </div>
                                     <button type="submit" class="btn btn-gradient-primary mr-2">添加</button>
                                 </s:form>
