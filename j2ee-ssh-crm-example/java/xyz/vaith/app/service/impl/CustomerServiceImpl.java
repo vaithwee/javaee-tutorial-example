@@ -36,4 +36,14 @@ public class CustomerServiceImpl implements CustomerService {
         pageBean.setList(list);
         return pageBean;
     }
+
+    @Override
+    public Customer findCustomerById(Integer cid) {
+        return custeomerDao.findCustomerById(cid);
+    }
+
+    @Override
+    public void deleteCustomer(Customer customer) {
+        custeomerDao.deleteCuctomer(customer);
+    }
 }

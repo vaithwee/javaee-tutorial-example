@@ -27,8 +27,16 @@
             <result>/WEB-INF/content/cm/table.jsp</result>
         </action>
         <action name="add" class="customerAction" method="add">
-            <result>/WEB-INF/content/cm/table.jsp</result>
+            <interceptor-ref name="defaultStack">
+                <param name="fileUpload.allowedExtensions">.jpg</param>
+            </interceptor-ref>
+            <result name="success" type="redirectAction">/cs/listUI</result>
+            <result name="input">/WEB-INF/content/cm/add.jsp</result>
         </action>
+        <action name="delete" class="customerAction" method="delete">
+            <result name="success" type="redirectAction">/cs/listUI</result>
+        </action>
+
     </package>
 
     <package name="BaseDict" extends="struts-default" namespace="/bd">

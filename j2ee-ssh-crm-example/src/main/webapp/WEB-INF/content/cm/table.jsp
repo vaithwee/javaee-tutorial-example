@@ -96,7 +96,7 @@
                                                 <s:property value="mobile" />
                                             </td>
                                             <td>
-                                                Herman Beck
+                                               <a href="${pageContext.request.contextPath}/cs/delete?cid=<s:property value="cid" />" class="btn-link">删除</a>
                                             </td>
 
                                         </tr>

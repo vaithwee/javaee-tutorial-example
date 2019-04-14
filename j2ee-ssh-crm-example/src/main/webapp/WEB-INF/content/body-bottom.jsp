@@ -13,3 +13,4 @@
 <script src="<s:url value="/js/off-canvas.js"/>"></script>
 <script src="<s:url value="/js/misc.js" />"></script>
 <script src="<s:url value="/js/dashboard.js" />"></script>
+<script src="<s:url value="/js/file-upload.js" />"></script>

@@ -8,6 +8,15 @@ public class Customer {
     private BaseDict level;
     private String phone;
     private String mobile;
+    private String image;
+
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
+    }
 
     public Integer getCid() {
         return cid;

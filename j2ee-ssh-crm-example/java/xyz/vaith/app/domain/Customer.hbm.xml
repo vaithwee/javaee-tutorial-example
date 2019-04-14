@@ -15,6 +15,7 @@
         <many-to-one name="source" class="xyz.vaith.app.domain.BaseDict" column="cust_source" />
         <many-to-one name="industry" class="xyz.vaith.app.domain.BaseDict" column="cust_industry" />
         <many-to-one name="level" class="xyz.vaith.app.domain.BaseDict" column="cust_level" />
+        <property name="image" column="cust_image" />
 
     </class>
 </hibernate-mapping>

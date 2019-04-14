@@ -10,4 +10,8 @@ public interface CusteomerDao {
     Integer findCount(DetachedCriteria detachedCriteria);
 
     List<Customer> findByPage(DetachedCriteria detachedCriteria, Integer pageIndex, Integer pageSize);
+
+    Customer findCustomerById(Integer cid);
+
+    void deleteCuctomer(Customer customer);
 }
