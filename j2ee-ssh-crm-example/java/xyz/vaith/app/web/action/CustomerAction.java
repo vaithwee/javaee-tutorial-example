@@ -104,4 +104,10 @@ public class CustomerAction extends ActionSupport implements ModelDriven<Custome
         customerService.deleteCustomer(c);
         return SUCCESS;
     }
+
+    public String editUI() {
+        Customer customer = customerService.findCustomerById(this.customer.getCid());
+        ActionContext.getContext().getValueStack().push(customer);
+        return SUCCESS;
+    }
 }

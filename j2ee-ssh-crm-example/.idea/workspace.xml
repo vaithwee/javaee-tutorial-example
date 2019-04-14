@@ -8,17 +8,8 @@
   <component name="ChangeListManager">
     <list default="true" id="80ba9d34-83f2-4c51-9ce1-2c16a65c022b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/xyz/vaith/app/dao/CusteomerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/xyz/vaith/app/dao/CusteomerDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/xyz/vaith/app/dao/impl/CustomerDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/xyz/vaith/app/dao/impl/CustomerDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/xyz/vaith/app/domain/Customer.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java/xyz/vaith/app/domain/Customer.hbm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/xyz/vaith/app/domain/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/xyz/vaith/app/domain/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/xyz/vaith/app/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/xyz/vaith/app/service/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/xyz/vaith/app/service/impl/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/xyz/vaith/app/service/impl/CustomerServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/xyz/vaith/app/web/action/CustomerAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/xyz/vaith/app/web/action/CustomerAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resource/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resource/struts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/body-bottom.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/body-bottom.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/cm/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/cm/add.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/cm/table.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/cm/table.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -75,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/content/cm/table.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="362">
-              <caret line="99" column="49" lean-forward="true" selection-start-line="99" selection-start-column="49" selection-end-line="99" selection-end-column="49" />
+              <caret line="99" column="157" lean-forward="true" selection-start-line="99" selection-start-column="157" selection-end-line="99" selection-end-column="157" />
             </state>
           </provider>
         </entry>
@@ -83,7 +74,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/service/impl/CustomerServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="962">
+            <state relative-caret-position="522">
               <caret line="46" column="46" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -99,8 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/web/action/CustomerAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="104" column="23" selection-start-line="104" selection-start-column="23" selection-end-line="104" selection-end-column="23" />
+            <state relative-caret-position="503">
+              <caret line="107" column="24" selection-start-line="107" selection-start-column="18" selection-end-line="107" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -136,7 +127,7 @@
         <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/dao/impl/CustomerDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="549">
-              <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+              <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1774#1775#0" expanded="true" />
@@ -146,11 +137,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resource/struts.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="36" column="76" selection-start-line="36" selection-start-column="76" selection-end-line="36" selection-end-column="76" />
+            <state relative-caret-position="494">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/content/cm/edit.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="70" column="60" lean-forward="true" selection-start-line="70" selection-start-column="60" selection-end-line="70" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -220,13 +220,14 @@
         <option value="$PROJECT_DIR$/java/xyz/vaith/app/domain/Customer.java" />
         <option value="$PROJECT_DIR$/java/xyz/vaith/app/domain/Customer.hbm.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/cm/add.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/cm/table.jsp" />
         <option value="$PROJECT_DIR$/java/xyz/vaith/app/service/CustomerService.java" />
-        <option value="$PROJECT_DIR$/java/xyz/vaith/app/web/action/CustomerAction.java" />
         <option value="$PROJECT_DIR$/java/xyz/vaith/app/service/impl/CustomerServiceImpl.java" />
         <option value="$PROJECT_DIR$/java/xyz/vaith/app/dao/CusteomerDao.java" />
         <option value="$PROJECT_DIR$/java/xyz/vaith/app/dao/impl/CustomerDaoImpl.java" />
+        <option value="$PROJECT_DIR$/java/xyz/vaith/app/web/action/CustomerAction.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/cm/table.jsp" />
         <option value="$PROJECT_DIR$/resource/struts.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/cm/edit.jsp" />
       </list>
     </option>
   </component>
@@ -303,43 +304,6 @@
               <item name="j2ee-ssh-crm-example" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="j2ee-ssh-crm-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="j2ee-ssh-crm-example" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="j2ee-ssh-crm-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="j2ee-ssh-crm-example" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="j2ee-ssh-crm-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="j2ee-ssh-crm-example" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="j2ee-ssh-crm-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="j2ee-ssh-crm-example" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="j2ee-ssh-crm-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="j2ee-ssh-crm-example" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -392,13 +356,12 @@
             <path>
               <item name="j2ee-ssh-crm-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="j2ee-ssh-crm-example" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="j2ee-ssh-crm-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="j2ee-ssh-crm-example" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="j2ee-ssh-crm-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="cm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="j2ee-ssh-crm-example" type="b2602c69:ProjectViewProjectNode" />
@@ -432,15 +395,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/cm" />
-      <recent name="$PROJECT_DIR$/src/main/webapp" />
-      <recent name="$PROJECT_DIR$/java/xyz/vaith/app/util" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp/js" />
       <recent name="$PROJECT_DIR$/src/main/webapp/pages" />
       <recent name="$PROJECT_DIR$/src/main/webapp" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/cm" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/java/xyz/vaith/app/util" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -571,7 +534,7 @@
       <workItem from="1555142452629" duration="412000" />
       <workItem from="1555142917050" duration="14750000" />
       <workItem from="1555168178517" duration="12192000" />
-      <workItem from="1555205204863" duration="4025000" />
+      <workItem from="1555205204863" duration="6234000" />
     </task>
     <servers />
   </component>
@@ -584,7 +547,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49271000" />
+    <option name="totallyTimeSpent" value="51480000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1337" extended-state="6" />
@@ -596,7 +559,7 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.93333334" visible="true" weight="0.2025417" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.93333334" visible="true" weight="0.2025417" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info id="Web" order="8" sideWeight="0.50085765" side_tool="true" weight="0.25239617" />
       <window_info anchor="bottom" id="Terminal" order="0" />
@@ -608,7 +571,7 @@
       <window_info anchor="bottom" id="Version Control" order="6" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.3295362" />
-      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.49960285" visible="true" weight="0.32872254" />
+      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.49960285" weight="0.32872254" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.39869812" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
@@ -701,7 +664,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.html" />
     <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -1141,43 +1103,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/content/cm/table.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="99" column="49" lean-forward="true" selection-start-line="99" selection-start-column="49" selection-end-line="99" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/service/CustomerService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="15" column="8" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/web/action/CustomerAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="104" column="23" selection-start-line="104" selection-start-column="23" selection-end-line="104" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/service/impl/CustomerServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="962">
-          <caret line="46" column="46" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1400#1401#0" expanded="true" />
-            <element signature="e#1427#1428#0" expanded="true" />
-            <element signature="e#1524#1525#0" expanded="true" />
-            <element signature="e#1546#1547#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1195,7 +1126,7 @@
     <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/dao/impl/CustomerDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="549">
-          <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1774#1775#0" expanded="true" />
@@ -1204,10 +1135,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/service/impl/CustomerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="46" column="46" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1400#1401#0" expanded="true" />
+            <element signature="e#1427#1428#0" expanded="true" />
+            <element signature="e#1524#1525#0" expanded="true" />
+            <element signature="e#1546#1547#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/content/cm/table.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="99" column="157" lean-forward="true" selection-start-line="99" selection-start-column="157" selection-end-line="99" selection-end-column="157" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/xyz/vaith/app/web/action/CustomerAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="107" column="24" selection-start-line="107" selection-start-column="18" selection-end-line="107" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resource/struts.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="36" column="76" selection-start-line="36" selection-start-column="76" selection-end-line="36" selection-end-column="76" />
+        <state relative-caret-position="494">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/content/cm/edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="70" column="60" lean-forward="true" selection-start-line="70" selection-start-column="60" selection-end-line="70" selection-end-column="60" />
         </state>
       </provider>
     </entry>

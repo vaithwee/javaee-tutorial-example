@@ -36,6 +36,9 @@
         <action name="delete" class="customerAction" method="delete">
             <result name="success" type="redirectAction">/cs/listUI</result>
         </action>
+        <action name="editUI" class="customerAction" method="editUI">
+            <result>/WEB-INF/content/cm/edit.jsp</result>
+        </action>
 
     </package>
 

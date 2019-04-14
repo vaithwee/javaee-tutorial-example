@@ -96,7 +96,8 @@
                                                 <s:property value="mobile" />
                                             </td>
                                             <td>
-                                               <a href="${pageContext.request.contextPath}/cs/delete?cid=<s:property value="cid" />" class="btn-link">删除</a>
+<%--                                               <a href="${pageContext.request.contextPath}/cs/delete?cid=<s:property value="cid" />" class="btn-link">删除</a>--%>
+                                                <a href="${pageContext.request.contextPath}/cs/editUI?cid=<s:property value="cid" />" class="btn-link">编辑</a>
                                             </td>
 
                                         </tr>
