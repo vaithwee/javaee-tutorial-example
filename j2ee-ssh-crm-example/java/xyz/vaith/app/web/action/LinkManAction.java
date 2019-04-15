@@ -14,6 +14,14 @@ public class LinkManAction extends ActionSupport implements ModelDriven<LinkMan>
     private Integer pageIndex;
     private Integer pageSize;
 
+    public void setPageIndex(Integer pageIndex) {
+        this.pageIndex = pageIndex;
+    }
+
+    public void setPageSize(Integer pageSize) {
+        this.pageSize = pageSize;
+    }
+
     public Integer getPageIndex() {
         if (pageIndex==null) {
             return 0;
