@@ -17,5 +17,10 @@
         <many-to-one name="level" class="xyz.vaith.app.domain.BaseDict" column="cust_level" />
         <property name="image" column="cust_image" />
 
+        <set name="linkMans">
+            <key column="lkm_cust_id"></key>
+            <one-to-many class="xyz.vaith.app.domain.LinkMan" />
+        </set>
+
     </class>
 </hibernate-mapping>

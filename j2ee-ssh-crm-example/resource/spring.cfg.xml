@@ -49,6 +49,19 @@
     <bean id="baseDictAction" class="xyz.vaith.app.web.action.BaseDictAction">
         <property name="baseDictService" ref="baseDictService" />
     </bean>
+
+<!--  LinkMan  -->
+    <bean id="linkManDao" class="xyz.vaith.app.dao.impl.LinkManDaoImpl">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+
+    <bean id="linkManService" class="xyz.vaith.app.service.impl.LinkManServiceImpl">
+        <property name="linkManDao" ref="linkManDao" />
+    </bean>
+    
+    <bean id="linkManAction" class="xyz.vaith.app.web.action.LinkManAction" scope="prototype">
+        <property name="linkManService" ref="linkManService" />
+    </bean>
 <!--  Sql  -->
 
     <bean id="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">

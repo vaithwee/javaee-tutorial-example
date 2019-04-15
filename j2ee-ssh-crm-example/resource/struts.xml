@@ -48,6 +48,12 @@
         </action>
     </package>
 
+    <package name="LinkMan" namespace="/lm" extends="struts-default">
+        <action name="list" class="linkManAction" method="list">
+            <result name="success">/WEB-INF/content/lm/table.jsp</result>
+        </action>
+    </package>
+
     <package name="BaseDict" extends="struts-default" namespace="/bd">
         <action name="getDictByTypeCode" class="baseDictAction" method="getDictByTypeCode">
 

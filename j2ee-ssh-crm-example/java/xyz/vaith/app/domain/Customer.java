@@ -1,5 +1,8 @@
 package xyz.vaith.app.domain;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class Customer {
     private Integer cid;
     private String name;
@@ -9,6 +12,15 @@ public class Customer {
     private String phone;
     private String mobile;
     private String image;
+    private Set<LinkMan> linkMans = new HashSet<LinkMan>();
+
+    public Set<LinkMan> getLinkMans() {
+        return linkMans;
+    }
+
+    public void setLinkMans(Set<LinkMan> linkMans) {
+        this.linkMans = linkMans;
+    }
 
     public String getImage() {
         return image;

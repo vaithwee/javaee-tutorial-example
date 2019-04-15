@@ -25,5 +25,6 @@
         <mapping resource="xyz/vaith/app/domain/User.hbm.xml" />
         <mapping resource="xyz/vaith/app/domain/Customer.hbm.xml" />
         <mapping resource="xyz/vaith/app/domain/BaseDict.hbm.xml" />
+        <mapping resource="xyz/vaith/app/domain/LinkMan.hbm.xml" />
     </session-factory>
 </hibernate-configuration>

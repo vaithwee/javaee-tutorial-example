@@ -1,0 +1,38 @@
+<!--/*-->
+<!--        * CREATE TABLE `cst_linkman` (-->
+<!--        `lkm_id` bigint(32) NOT NULL AUTO_INCREMENT COMMENT '联系人编号(主键)',-->
+<!--        `lkm_name` varchar(16) DEFAULT NULL COMMENT '联系人姓名',-->
+<!--        `lkm_cust_id` bigint(32) NOT NULL COMMENT '客户id',-->
+<!--        `lkm_gender` char(1) DEFAULT NULL COMMENT '联系人性别',-->
+<!--        `lkm_phone` varchar(16) DEFAULT NULL COMMENT '联系人办公电话',-->
+<!--        `lkm_mobile` varchar(16) DEFAULT NULL COMMENT '联系人手机',-->
+<!--        `lkm_email` varchar(64) DEFAULT NULL COMMENT '联系人邮箱',-->
+<!--        `lkm_qq` varchar(16) DEFAULT NULL COMMENT '联系人qq',-->
+<!--        `lkm_position` varchar(16) DEFAULT NULL COMMENT '联系人职位',-->
+<!--        `lkm_memo` varchar(512) DEFAULT NULL COMMENT '联系人备注',-->
+<!--        PRIMARY KEY (`lkm_id`),-->
+<!--        KEY `FK_cst_linkman_lkm_cust_id` (`lkm_cust_id`),-->
+<!--        CONSTRAINT `FK_cst_linkman_lkm_cust_id` FOREIGN KEY (`lkm_cust_id`) REFERENCES `cst_customer` (`cust_id`) ON DELETE NO ACTION ON UPDATE NO ACTION-->
+<!--        ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;-->
+<!--        * */-->
+
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="xyz.vaith.app.domain.LinkMan" table="cst_linkman">
+        <id name="lid" column="lkm_id">
+            <generator class="native"></generator>
+        </id>
+        <property name="name" column="lkm_name" />
+        <property name="gender" column="lkm_gender" />
+        <property name="phone" column="lkm_phone" />
+        <property name="mobile" column="lkm_mobile" />
+        <property name="email" column="lkm_email" />
+        <property name="qq" column="lkm_qq" />
+        <property name="position" column="lkm_position" />
+        <property name="mone" column="lkm_memo" />
+
+        <many-to-one name="customer" column="lkm_cust_id" class="xyz.vaith.app.domain.Customer" />
+    </class>
+</hibernate-mapping>
