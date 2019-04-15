@@ -20,6 +20,38 @@
             document.form.submit();
         }
     </script>
+
+
+    <script>
+        $(function () {
+            $.post("<s:url value="/bd/getDictByTypeCode" />", {"typeCode":"002"}, function(data){
+                console.log(data);
+                $(data).each(function (index, item) {
+                    console.log("item:" + item);
+                    $("#source").append("<option value=\"" + item.did + "\">" + item.itemName + "</option>");
+                    $("#source option[value='${model.source.did}']").prop("selected", "selected");
+                });
+            }, "json");
+
+            $.post("<s:url value="/bd/getDictByTypeCode" />", {"typeCode":"001"}, function(data){
+                console.log(data);
+                $(data).each(function (index, item) {
+                    console.log("item:" + item);
+                    $("#industry").append("<option value=\"" + item.did + "\">" + item.itemName + "</option>");
+                    $("#industry option[value='${model.industry.did}']").prop("selected", "selected");
+                });
+            }, "json");
+
+            $.post("<s:url value="/bd/getDictByTypeCode" />", {"typeCode":"006"}, function(data){
+                console.log(data);
+                $(data).each(function (index, item) {
+                    console.log("item:" + item);
+                    $("#level").append("<option value=\"" + item.did + "\">" + item.itemName + "</option>");
+                    $("#level option[value='${model.level.did}']").prop("selected", "selected");
+                });
+            }, "json");
+        });
+    </script>
 </head>
 <body>
 <div class="container-scroller">
@@ -34,6 +66,37 @@
         <div class="main-panel">
             <div class="content-wrapper">
                 <div class="row">
+                    <div class="col-lg-12">
+                        <form action="${pageContext.request.contextPath}/cs/listUI">
+                                    <label for="username">客户名称</label>
+                                    <input type="text" class="form-control form-control-sm" id="username" placeholder="客户名称" name="name" value="<s:property value="model.name" />">
+
+
+                                    <label for="level">客户级别</label>
+                                    <select class="form-control form-control-sm" id="level" name="level.did">
+                                        <option value="">--请选择--</option>
+
+                                    </select>
+
+
+
+                                    <label for="source">信息来源</label>
+                                    <select class="form-control form-control-sm" id="source" name="source.did">
+                                        <option value="">--请选择--</option>
+
+                                    </select>
+
+
+                                    <label for="industry">所属行业</label>
+                                    <select class="form-control form-control-sm" id="industry" name="industry.did">
+                                        <option value="">--请选择--</option>
+
+                                    </select>
+
+                                <button class="btn btn-gradient-primary mr-2" type="submit">查询</button>
+
+                        <form>
+                    </div>
                     <div class="col-lg-12 grid-margin stretch-card">
                         <div class="card">
                             <div class="card-body">
@@ -106,23 +169,21 @@
 
                                     </tbody>
                                     <tfoot>
-                                    <tr>
-                                        <td>
-                                            <form action="${pageContext.request.contextPath}/cs/listUI" name="form" id="form">
-                                                <input type="hidden" value="0" name="pageIndex" id="pageIndex" />
-                                            </form>
-                                        </td>
-                                        <div class="btn-group" role="group" aria-label="Basic example">
-                                            <button type="button" class="btn btn-primary <s:if test="pageIndex==0">disabled</s:if>" onclick="toPage(0)">首页</button>
-                                            <s:iterator begin="0" end="totalPage-1" var="pn">
-                                                <button onclick="toPage(<s:property value="pn" />)" type="button" class="btn btn-outline-secondary <s:if test="#pn==pageIndex">active</s:if> " ><s:property value="#pn+1"/> </button>
-                                            </s:iterator>
-                                            <button type="button" class="btn btn-primary <s:if test="pageIndex==totalPage-1">disabled</s:if>" onclick="toPage(<s:property value="totalPage-1" /> )">末页</button>
-                                        </div>
-                                    </tr>
-
                                     </tfoot>
                                 </table>
+                            </div>
+                            <div class="col-md-8 offset-2">
+                                <form action="${pageContext.request.contextPath}/cs/listUI" name="form" id="form">
+                                    <input type="hidden" value="0" name="pageIndex" id="pageIndex" />
+                                </form>
+
+                                <div class="btn-group" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn btn-primary <s:if test="pageIndex==0">disabled</s:if>" onclick="toPage(0)">首页</button>
+                                    <s:iterator begin="0" end="totalPage-1" var="pn">
+                                        <button onclick="toPage(<s:property value="pn" />)" type="button" class="btn btn-outline-secondary <s:if test="#pn==pageIndex">active</s:if> " ><s:property value="#pn+1"/> </button>
+                                    </s:iterator>
+                                    <button type="button" class="btn btn-primary <s:if test="pageIndex==totalPage-1">disabled</s:if>" onclick="toPage(<s:property value="totalPage-1" /> )">末页</button>
+                                </div>
                             </div>
                         </div>
                     </div>

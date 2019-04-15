@@ -5,7 +5,9 @@ import com.opensymphony.xwork2.ActionSupport;
 import com.opensymphony.xwork2.ModelDriven;
 import org.apache.struts2.ServletActionContext;
 import org.aspectj.util.FileUtil;
+import org.hibernate.Criteria;
 import org.hibernate.criterion.DetachedCriteria;
+import org.hibernate.criterion.Restrictions;
 import xyz.vaith.app.domain.Customer;
 import xyz.vaith.app.domain.PageBean;
 import xyz.vaith.app.service.CustomerService;
@@ -69,17 +71,7 @@ public class CustomerAction extends ActionSupport implements ModelDriven<Custome
 
     public String add() throws IOException {
         if (upload!=null) {
-            String directory = ServletActionContext.getServletContext().getRealPath("images");
-            String filename = UploadUtils.getUUIDFileName(uploadFileName);
-            String path = UploadUtils.getPath(filename);
-            String url = directory + path;
-            File file = new File(url);
-            if (!file.exists()) {
-                file.mkdirs();
-            }
-            File dict = new File(url + "/" + filename);
-            FileUtil.copyFile(upload, dict);
-            this.customer.setImage("images" + path + "/" + filename);
+            saveFile();
         }
         Customer customer = customerService.save(this.customer);
         return SUCCESS;
@@ -87,6 +79,21 @@ public class CustomerAction extends ActionSupport implements ModelDriven<Custome
 
     public String listUI() {
         DetachedCriteria detachedCriteria = DetachedCriteria.forClass(Customer.class);
+        if (customer.getName()!= null && !customer.getName().isEmpty()) {
+            detachedCriteria.add(Restrictions.like("name", customer.getName()));
+        }
+        if (customer.getSource()!= null && customer.getSource().getDid()!= null && !customer.getSource().getDid().isEmpty()) {
+            detachedCriteria.add(Restrictions.eq("source.did", customer.getSource().getDid()));
+        }
+
+        if (customer.getIndustry()!= null && customer.getIndustry().getDid()!= null && !customer.getIndustry().getDid().isEmpty()) {
+            detachedCriteria.add(Restrictions.eq("industry.did", customer.getIndustry().getDid()));
+        }
+
+        if (customer.getLevel()!= null && customer.getLevel().getDid()!= null && !customer.getLevel().getDid().isEmpty()) {
+            detachedCriteria.add(Restrictions.eq("level.did", customer.getLevel().getDid()));
+        }
+
         PageBean<Customer> allByPage = customerService.findAllByPage(detachedCriteria, getPageIndex(), getPageSize());
         ActionContext.getContext().getValueStack().push(allByPage);
 //        System.out.println(allByPage);
@@ -109,5 +116,33 @@ public class CustomerAction extends ActionSupport implements ModelDriven<Custome
         Customer customer = customerService.findCustomerById(this.customer.getCid());
         ActionContext.getContext().getValueStack().push(customer);
         return SUCCESS;
+    }
+
+    public String update() throws Exception {
+        if (upload != null) {
+            if (!customer.getImage().isEmpty()) {
+                File file = new File(ServletActionContext.getServletContext().getRealPath("") + customer.getImage());
+                if (file.exists()) {
+                    file.delete();
+                }
+            }
+            saveFile();
+        }
+        this.customerService.update(customer);
+        return SUCCESS;
+    }
+
+    private void saveFile() throws IOException {
+        String directory = ServletActionContext.getServletContext().getRealPath("images");
+        String filename = UploadUtils.getUUIDFileName(uploadFileName);
+        String path = UploadUtils.getPath(filename);
+        String url = directory + path;
+        File file = new File(url);
+        if (!file.exists()) {
+            file.mkdirs();
+        }
+        File dict = new File(url + "/" + filename);
+        FileUtil.copyFile(upload, dict);
+        this.customer.setImage("images" + path + "/" + filename);
     }
 }

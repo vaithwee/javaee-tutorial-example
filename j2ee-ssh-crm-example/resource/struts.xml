@@ -39,10 +39,18 @@
         <action name="editUI" class="customerAction" method="editUI">
             <result>/WEB-INF/content/cm/edit.jsp</result>
         </action>
-
+        <action name="update" class="customerAction" method="update">
+            <interceptor-ref name="defaultStack">
+                <param name="fileUpload.maximumSize">5242880</param>
+            </interceptor-ref>
+            <result name="success" type="redirectAction">/cs/listUI</result>
+            <result name="input">/WEB-INF/content/cm/edit.jsp</result>
+        </action>
     </package>
 
     <package name="BaseDict" extends="struts-default" namespace="/bd">
-        <action name="getDictByTypeCode" class="baseDictAction" method="getDictByTypeCode"></action>
+        <action name="getDictByTypeCode" class="baseDictAction" method="getDictByTypeCode">
+
+        </action>
     </package>
 </struts>

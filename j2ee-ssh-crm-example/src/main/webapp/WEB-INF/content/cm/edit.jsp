@@ -65,7 +65,7 @@
                                 <p class="card-description">
                                     >编辑客户表格
                                 </p>
-                                <s:form class="forms-sample" action="cs/add" method="POST" enctype="multipart/form-data">
+                                <s:form class="forms-sample" action="update" namespace="/cs" method="POST" enctype="multipart/form-data">
                                     <input type="hidden" value="<s:property value="cid" />" name="cid" />
                                     <input type="hidden" value="<s:property value="image" />" name="image" />
                                     <div class="form-group">
