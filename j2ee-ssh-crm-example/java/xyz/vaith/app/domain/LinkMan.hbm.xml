@@ -33,6 +33,6 @@
         <property name="position" column="lkm_position" />
         <property name="mone" column="lkm_memo" />
 
-        <many-to-one name="customer" column="lkm_cust_id" class="xyz.vaith.app.domain.Customer" />
+        <many-to-one name="customer" column="lkm_cust_id" class="xyz.vaith.app.domain.Customer" not-null="false" />
     </class>
 </hibernate-mapping>

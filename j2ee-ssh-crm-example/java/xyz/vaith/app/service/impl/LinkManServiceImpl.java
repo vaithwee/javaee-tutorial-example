@@ -39,7 +39,7 @@ public class LinkManServiceImpl implements LinkManService {
 
     @Override
     public LinkMan getLinkManById(Integer lid) {
-        return this.linkManDao.getLinkManById(lid);
+        return this.linkManDao.findCustomerById(lid);
     }
 
     @Override

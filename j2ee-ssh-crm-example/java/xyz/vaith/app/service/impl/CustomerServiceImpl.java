@@ -20,7 +20,8 @@ public class CustomerServiceImpl implements CustomerService {
 
     @Override
     public Customer save(Customer customer) {
-        return this.custeomerDao.save(customer);
+         this.custeomerDao.save(customer);
+         return null;
     }
 
     @Override
@@ -44,7 +45,7 @@ public class CustomerServiceImpl implements CustomerService {
 
     @Override
     public void deleteCustomer(Customer customer) {
-        custeomerDao.deleteCuctomer(customer);
+        custeomerDao.delete(customer);
     }
 
     @Override
@@ -54,6 +55,6 @@ public class CustomerServiceImpl implements CustomerService {
 
     @Override
     public List<Customer> findAllCustomer() {
-        return this.custeomerDao.findAllCostomer();
+        return this.custeomerDao.findAll();
     }
 }
