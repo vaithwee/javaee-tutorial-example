@@ -16,4 +16,6 @@ public interface CusteomerDao {
     void deleteCuctomer(Customer customer);
 
     void update(Customer customer);
+
+    List<Customer> findAllCostomer();
 }

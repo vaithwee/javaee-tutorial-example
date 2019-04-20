@@ -61,6 +61,7 @@
     
     <bean id="linkManAction" class="xyz.vaith.app.web.action.LinkManAction" scope="prototype">
         <property name="linkManService" ref="linkManService" />
+        <property name="customerService" ref="customerService" />
     </bean>
 <!--  Sql  -->
 

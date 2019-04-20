@@ -51,4 +51,9 @@ public class CustomerServiceImpl implements CustomerService {
     public void update(Customer customer) {
         this.custeomerDao.update(customer);
     }
+
+    @Override
+    public List<Customer> findAllCustomer() {
+        return this.custeomerDao.findAllCostomer();
+    }
 }

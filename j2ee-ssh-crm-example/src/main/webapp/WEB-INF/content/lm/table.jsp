@@ -113,7 +113,7 @@
                                         </th>
                                         <th>
 
-                                            操作
+                                            所属客户
                                         </th>
                                     </tr>
                                     </thead>
@@ -148,11 +148,16 @@
                                             <td>
                                                 <s:property value="mone"/>
                                             </td>
+                                            <td>
+                                                <s:property value="customer.name"/>
+                                            </td>
 
                                             <td>
                                                     <%--                                               <a href="${pageContext.request.contextPath}/cs/delete?cid=<s:property value="cid" />" class="btn-link">删除</a>--%>
-                                                <a href="${pageContext.request.contextPath}/cs/editUI?cid=<s:property value="cid" />"
+                                                <a href="${pageContext.request.contextPath}/lm/editUI?lid=<s:property value="lid" />"
                                                    class="btn-link">编辑</a>
+                                                        <a href="${pageContext.request.contextPath}/lm/delete?lid=<s:property value="lid" />"
+                                                   class="btn-link">删除</a>
                                             </td>
 
                                         </tr>

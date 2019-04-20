@@ -50,7 +50,7 @@
             </a>
             <div class="collapse" id="ui-lm">
                 <ul class="nav flex-column sub-menu">
-                    <li class="nav-item"> <a class="nav-link" href="${pageContext.request.contextPath}/cs/addUI">添加联系人</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="${pageContext.request.contextPath}/lm/addUI">添加联系人</a></li>
                     <li class="nav-item"> <a class="nav-link" href="${pageContext.request.contextPath}/lm/list">联系人列表</a></li>
                 </ul>
             </div>

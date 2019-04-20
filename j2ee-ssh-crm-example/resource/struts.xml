@@ -52,6 +52,21 @@
         <action name="list" class="linkManAction" method="list">
             <result name="success">/WEB-INF/content/lm/table.jsp</result>
         </action>
+        <action name="addUI" class="linkManAction" method="addUI">
+            <result>/WEB-INF/content/lm/add.jsp</result>
+        </action>
+        <action name="save" class="linkManAction" method="save">
+            <result type="redirectAction">/lm/list</result>
+        </action>
+        <action name="editUI" class="linkManAction" method="editUI">
+            <result>/WEB-INF/content/lm/edit.jsp</result>
+        </action>
+        <action name="update" class="linkManAction" method="update">
+            <result type="redirectAction">/lm/list</result>
+        </action>
+        <action name="delete" class="linkManAction" method="delete">
+            <result type="redirectAction">/lm/list</result>
+        </action>
     </package>
 
     <package name="BaseDict" extends="struts-default" namespace="/bd">
