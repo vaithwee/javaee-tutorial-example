@@ -20,11 +20,22 @@
     </package>
     
     <package name="CustomerManager" extends="struts-default" namespace="/cs">
+        <interceptors>
+            <interceptor name="privilege" class="xyz.vaith.app.filter.Privilegeinterceptor"></interceptor>
+        </interceptors>
+        <global-results>
+            <result name="login">/login.jsp</result>
+        </global-results>
+        
         <action name="addUI">
             <result>/WEB-INF/content/cm/add.jsp</result>
+            <interceptor-ref name="privilege" />
+            <interceptor-ref name="defaultStack" />
         </action>
         <action name="listUI" class="customerAction" method="listUI">
             <result>/WEB-INF/content/cm/table.jsp</result>
+            <interceptor-ref name="privilege" />
+            <interceptor-ref name="defaultStack" />
         </action>
         <action name="add" class="customerAction" method="add">
             <interceptor-ref name="defaultStack">
@@ -32,12 +43,18 @@
             </interceptor-ref>
             <result name="success" type="redirectAction">/cs/listUI</result>
             <result name="input">/WEB-INF/content/cm/add.jsp</result>
+            <interceptor-ref name="privilege" />
+            <interceptor-ref name="defaultStack" />
         </action>
         <action name="delete" class="customerAction" method="delete">
             <result name="success" type="redirectAction">/cs/listUI</result>
+            <interceptor-ref name="privilege" />
+            <interceptor-ref name="defaultStack" />
         </action>
         <action name="editUI" class="customerAction" method="editUI">
             <result>/WEB-INF/content/cm/edit.jsp</result>
+            <interceptor-ref name="privilege" />
+            <interceptor-ref name="defaultStack" />
         </action>
         <action name="update" class="customerAction" method="update">
             <interceptor-ref name="defaultStack">
@@ -45,33 +62,60 @@
             </interceptor-ref>
             <result name="success" type="redirectAction">/cs/listUI</result>
             <result name="input">/WEB-INF/content/cm/edit.jsp</result>
+            <interceptor-ref name="privilege" />
+            <interceptor-ref name="defaultStack" />
         </action>
     </package>
 
     <package name="LinkMan" namespace="/lm" extends="struts-default">
+        <interceptors>
+            <interceptor name="privilege" class="xyz.vaith.app.filter.Privilegeinterceptor"></interceptor>
+        </interceptors>
+        <global-results>
+            <result name="login">/login.jsp</result>
+        </global-results>
         <action name="list" class="linkManAction" method="list">
             <result name="success">/WEB-INF/content/lm/table.jsp</result>
+            <interceptor-ref name="privilege" />
+            <interceptor-ref name="defaultStack" />
         </action>
         <action name="addUI" class="linkManAction" method="addUI">
             <result>/WEB-INF/content/lm/add.jsp</result>
+            <interceptor-ref name="privilege" />
+            <interceptor-ref name="defaultStack" />
         </action>
         <action name="save" class="linkManAction" method="save">
             <result type="redirectAction">/lm/list</result>
+            <interceptor-ref name="privilege" />
+            <interceptor-ref name="defaultStack" />
         </action>
         <action name="editUI" class="linkManAction" method="editUI">
             <result>/WEB-INF/content/lm/edit.jsp</result>
+            <interceptor-ref name="privilege" />
+            <interceptor-ref name="defaultStack" />
         </action>
         <action name="update" class="linkManAction" method="update">
             <result type="redirectAction">/lm/list</result>
+            <interceptor-ref name="privilege" />
+            <interceptor-ref name="defaultStack" />
         </action>
         <action name="delete" class="linkManAction" method="delete">
             <result type="redirectAction">/lm/list</result>
+            <interceptor-ref name="privilege" />
+            <interceptor-ref name="defaultStack" />
         </action>
     </package>
 
     <package name="BaseDict" extends="struts-default" namespace="/bd">
+        <interceptors>
+            <interceptor name="privilege" class="xyz.vaith.app.filter.Privilegeinterceptor"></interceptor>
+        </interceptors>
+        <global-results>
+            <result name="login">/login.jsp</result>
+        </global-results>
         <action name="getDictByTypeCode" class="baseDictAction" method="getDictByTypeCode">
-
+            <interceptor-ref name="privilege" />
+            <interceptor-ref name="defaultStack" />
         </action>
     </package>
 </struts>
