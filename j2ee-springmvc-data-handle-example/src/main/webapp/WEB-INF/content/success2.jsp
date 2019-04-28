@@ -13,14 +13,13 @@
 </head>
 <body>
 <h3>Success</h3>
-${requestScope.user.birthday}
+${requestScope.account.username}<br />
+${requestScope.account.password}<br />
+${requestScope.account.nickname}<br />
+${requestScope.account.age}<br />
+${requestScope.account.email}<br />
+${requestScope.account.phone}<br />
+${requestScope.account.birthday}<br />
 
-<hr />
-<form:form modelAttribute="user" method="post" action="">
-    <form:input path="birthday" /><br />
-    <form:input path="total" /><br />
-    <form:input path="discount" /><br />
-    <form:input path="money" /><br />
-</form:form>
 </body>
 </html>

@@ -44,4 +44,7 @@
         </property>
     </bean>
 
+    <bean id="userValidator" class="xyz.vaith.validator.UserValidator" />
+
+
 </beans>

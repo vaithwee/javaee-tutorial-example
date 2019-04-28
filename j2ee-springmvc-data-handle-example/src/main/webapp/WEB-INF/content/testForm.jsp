@@ -11,6 +11,20 @@
     <title>Title</title>
 </head>
 <body>
-
+<form action="test" method="post">
+    <label>Date</label>
+    <input type="text" name="birthday" id="birthday" />
+    <br />
+    <label>Integer</label>
+    <input type="text" id="total" name="total" />
+    <br />
+    <label>Percent</label>
+    <input type="text" id="discount" name="discount" />
+    <br />
+    <label>Money</label>
+    <input type="text" id="money" name="money" />
+    <br/>
+    <input type="submit" value="Submit" />
+</form>
 </body>
 </html>
