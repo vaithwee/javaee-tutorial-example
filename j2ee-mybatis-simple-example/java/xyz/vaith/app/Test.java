@@ -4,6 +4,7 @@ import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
+import xyz.vaith.dao.UserDao;
 import xyz.vaith.domain.User;
 
 import java.io.IOException;
@@ -76,5 +77,38 @@ public class Test {
         InputStream inputStream = Resources.getResourceAsStream("mybatis.cfg.xml");
         SqlSessionFactory sessionFactory = ssfb.build(inputStream);
         return sessionFactory.openSession();
+    }
+
+    @org.junit.jupiter.api.Test
+    public void test6() throws IOException {
+        SqlSession sqlSession = getSqlSession();
+        UserDao userDao = sqlSession.getMapper(UserDao.class);
+        User user = userDao.findUserById(1);
+        System.out.println(user);
+    }
+
+    @org.junit.jupiter.api.Test
+    public void test7() throws IOException {
+        SqlSession sqlSession = getSqlSession();
+        UserDao userDao = sqlSession.getMapper(UserDao.class);
+        List<User> users = userDao.findUsersByName("张");
+        for (User user : users) {
+            System.out.println(user);
+        }
+
+    }
+
+    @org.junit.jupiter.api.Test
+    public void test8() throws IOException {
+        SqlSession sqlSession = getSqlSession();
+        UserDao userDao = sqlSession.getMapper(UserDao.class);
+        User user = new User();
+        user.setAddress("中国北京");
+        user.setSex("1");
+        user.setBirthday(new Date());
+        user.setUsername("张飞");
+        userDao.save(user);
+        sqlSession.commit();
+        System.out.println(user);
     }
 }
