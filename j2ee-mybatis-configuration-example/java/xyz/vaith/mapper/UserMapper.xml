@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="xyz.vaith.mapper.UserMapper">
+
+    <resultMap id="userResultMap" type="xyz.vaith.domain.User">
+        <id property="id" column="user_id" />
+        <result property="name" column="user_name" />
+        <result property="sex" column="user_sex" />
+        <result property="age" column="user_age" />
+    </resultMap>
+
+    <resultMap id="studentResultMap" type="xyz.vaith.domain.Student">
+        <id property="id" column="id" />
+        <result property="name" column="name" />
+        <result property="sex" column="sex" />
+        <association property="clazz" column="clazz_id" javaType="xyz.vaith.domain.Clazz" select="selectClazzWithId" />
+    </resultMap>
+
+    <resultMap id="clazzResultMap" type="xyz.vaith.domain.Clazz">
+        <id property="id" column="id" />
+        <result property="code" column="code" />
+        <collection property="students" javaType="ArrayList" column="id" ofType="xyz.vaith.domain.Student" select="selectStudentWithId" />
+    </resultMap>
+
+    <select id="selectStudentWithId" parameterType="int" resultType="xyz.vaith.domain.Student">
+        SELECT * FROM `tb_student` WHERE clazz_id = #{id}
+    </select>
+
+    <select id="selectClazz" resultMap="clazzResultMap">
+        SELECT * FROM `tb_clazz`
+    </select>
+
+    <select id="selectClazzWithId" resultType="xyz.vaith.domain.Clazz">
+        SELECT * FROM `tb_clazz` WHERE id = #{id}
+    </select>
+
+    <select id="selectStudent" resultMap="studentResultMap">
+        SELECT * FROM `tb_student`
+    </select>
+
+    <insert id="saveUser" parameterType="user" useGeneratedKeys="true">
+        INSERT  INTO `tb_user` (`name`, `sex`, `age`) VALUES (#{name}, #{sex}, #{age})
+    </insert>
+
+
+    <select id="selectedUser" parameterType="int" resultType="user">
+        SELECT * FROM `tb_user` WHERE id = #{id}
+    </select>
+
+    <update id="modifyUser" parameterType="user">
+        UPDATE `tb_user` SET `name` = #{name}, `sex` = #{sex}, `age` = #{age} WHERE id = #{id}
+    </update>
+
+    <delete id="removeUser" parameterType="int">
+        DELETE FROM `tb_user` WHERE id = #{id}
+    </delete>
+
+    <select id="selectUserMap" resultType="map">
+        SELECT * FROM `tb_user`
+    </select>
+
+    <select id="selectUserMap2" resultMap="userResultMap">
+        SELECT * FROM `tb_user2`
+    </select>
+</mapper>
