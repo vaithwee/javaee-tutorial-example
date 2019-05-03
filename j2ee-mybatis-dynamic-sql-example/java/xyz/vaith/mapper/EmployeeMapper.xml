@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="xyz.vaith.mapper.EmployeeMapper">
+    <select id="selectEmployeeByIdLike" resultType="xyz.vaith.domain.Employee">
+        SELECT * FROM tb_employee WHERE `state` = 'ACTIVE'
+        <if test="id != null">
+            AND `id` = #{id}
+        </if>
+    </select>
+
+    <select id="selectEmployeeByLoginLike" resultType="xyz.vaith.domain.Employee">
+         SELECT * FROM tb_employee WHERE `state` = 'ACTIVE'
+         <if test="loginname != null and password != null">
+             AND `loginname` = #{loginname} AND `password` = #{password}
+         </if>
+    </select>
+
+    <select id="selectEmployeeChoose" resultType="xyz.vaith.domain.Employee">
+        SELECT * FROM tb_employee WHERE `state` = 'ACTIVE'
+        <choose>
+            <when test="id != null">
+                AND `id` = #{id};
+            </when>
+            <when test="loginname != null and password != null">
+                AND `loginname` = #{loginname} AND `password` = #{password}
+            </when>
+            <otherwise>
+                AND `sex` = '男'
+            </otherwise>
+        </choose>
+    </select>
+
+    <select id="selectEmployeeLike" resultType="xyz.vaith.domain.Employee">
+        SELECT * FROM tb_employee
+        <where>
+            <if test="state != null">
+                `state` = #{state}
+            </if>
+            <if test="id != null">
+                AND `id` = #{id}
+            </if>
+            <if test="loginname != null and password != null">
+                AND `loginname` = #{loginname} AND `password` = #{password}
+            </if>
+        </where>
+    </select>
+
+    <select id="selectEmployeeById" parameterType="int" resultType="xyz.vaith.domain.Employee">
+        SELECT * FROM `tb_employee` WHERE `id` = #{id}
+    </select>
+    
+    <select id="updateEmployeeIfNecessary" parameterType="xyz.vaith.domain.Employee">
+        UPDATE `tb_employee`
+        <set>
+            <if test="loginname != null">loginname=#{loginname},</if>
+            <if test="password != null">password=#{password},</if>
+            <if test="name != null">name=#{name},</if>
+            <if test="sex != null">sex=#{sex},</if>
+            <if test="age != null">age=#{age},</if>
+            <if test="phone != null">phone=#{phone},</if>
+            <if test="sal != null">sal=#{sal},</if>
+            <if test="state != null">state=#{state},</if>
+        </set>
+        WHERE id = #{id}
+    </select>
+
+    <select id="selectEmployeeIn" resultType="xyz.vaith.domain.Employee">
+        SELECT * FROM `tb_employee`
+        WHERE `id` IN
+        <foreach collection="list" item="item" index="index" open="(" separator="," close=")">
+            #{item}
+        </foreach>
+    </select>
+
+    <select id="selectEmployeeLikeName" resultType="xyz.vaith.domain.Employee">
+        <bind name="pattern" value="'%' + _parameter.getName() + '%'"/>
+        SELECT * FROM tb_employee WHERE loginname LIKE #{pattern}
+    </select>
+</mapper>
